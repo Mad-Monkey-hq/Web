@@ -1,4 +1,5 @@
 import React from "react";
+import Vision from "./Vision";
 
 function Navbar() {
   return (
@@ -12,23 +13,24 @@ function Navbar() {
         </a>
 
         <nav className="text-base text-white font-medium mt-20 mr-10">
-          <a href="#" className="p-8 transition duration-0.3 hover:text-black">
-            Home
-          </a>
-          <a href="#" className="p-8 transition duration-0.3 hover:text-black">
-            About
-          </a>
-          <a href="#" className="p-8 transition duration-0.3 hover:text-black">
+          <a href="#" className="p-8 transition duration-0.3 hover:text-yellow-700">
             Services
           </a>
-          <a href="#" className="p-8 transition duration-0.3 hover:text-black">
-            Contact
+          <a href="#" className="p-8 transition duration-0.3 hover:text-yellow-700">
+            Testimonials
+          </a>
+          <a href="#" className="p-8 transition duration-0.3 hover:text-yellow-700">
+            Our Vision
+          </a>
+          <a href="#" className="p-8 transition duration-0.3 hover:text-yellow-700">
+            Contact Us
           </a>
           <a href="#">
-          <button class="bg-gradient-to-br from-fuchsia-500 via-blue-500 to-indigo-900 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Button</button>
+          <button class="bg-gradient-to-br from-fuchsia-500 via-blue-500 to-indigo-900 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">1 hour free advice</button>
           </a>
         </nav>
       </header>
+      <Vision />
     </div>
   );
 }
