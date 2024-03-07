@@ -10,7 +10,7 @@ function Navbar() {
     <div>
       <header className="top-0 left-0 w-full h-16 flex justify-between items-center">
         <div className="mt-20 ml-10"><img src={img1} /></div>
-        <nav className="text-base text-white font-medium mt-20 mr-10">
+        <nav className="text-base text-white gilroy-regular mt-20 mr-10">
           <Link to="/" className="p-8 transition duration-0.3 hover:text-yellow-700">
             Home
           </Link>
