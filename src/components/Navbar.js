@@ -1,36 +1,36 @@
 import React from "react";
-import Vision from "./Vision";
+import {
+  Link,
+  Routes
+} from "react-router-dom";
+import img1 from "../images/Mad Monkey.jpeg"
 
 function Navbar() {
   return (
     <div>
       <header className="top-0 left-0 w-full h-16 flex justify-between items-center">
-      <a
-          href="#"
-          className="ml-4 mt-20 px-10 text-3xl font-bold text-white drop-shadow-xl"
-        >
-          <img src="./images/Mad Monkey.jpeg"/>
-        </a>
-
+        <div className="mt-20 ml-10"><img src={img1} /></div>
         <nav className="text-base text-white font-medium mt-20 mr-10">
-          <a href="#" className="p-8 transition duration-0.3 hover:text-yellow-700">
+          <Link to="/" className="p-8 transition duration-0.3 hover:text-yellow-700">
+            Home
+          </Link>
+          <Link to="/Services" className="p-8 transition duration-0.3 hover:text-yellow-700">
             Services
-          </a>
-          <a href="#" className="p-8 transition duration-0.3 hover:text-yellow-700">
+          </Link>
+          <Link to="/Testimonials" className="p-8 transition duration-0.3 hover:text-yellow-700">
             Testimonials
-          </a>
-          <a href="#" className="p-8 transition duration-0.3 hover:text-yellow-700">
+          </Link>
+          <Link to="/Vision" className="p-8 transition duration-0.3 hover:text-yellow-700">
             Our Vision
-          </a>
-          <a href="#" className="p-8 transition duration-0.3 hover:text-yellow-700">
+          </Link>
+          <Link to="/Contact Us" className="p-8 transition duration-0.3 hover:text-yellow-700">
             Contact Us
-          </a>
-          <a href="#">
-          <button class="bg-gradient-to-br from-fuchsia-500 via-blue-500 to-indigo-900 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">1 hour free advice</button>
-          </a>
+          </Link>
+          <Link to="#">
+            <button class="bg-gradient-to-br from-fuchsia-500 via-blue-500 to-indigo-900 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">1 hour free advice</button>
+          </Link>
         </nav>
       </header>
-      <Vision />
     </div>
   );
 }
