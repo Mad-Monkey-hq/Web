@@ -1,21 +1,27 @@
 {
   "files": {
-    "main.css": "/Web/static/css/main.a83fe520.css",
-    "main.js": "/Web/static/js/main.9bbb8153.js",
-    "static/media/Group3.jpg": "/Web/static/media/Group3.929e54a62fd2e47ce97f.jpg",
-    "static/media/Group2.jpg": "/Web/static/media/Group2.353e19ff4f462c46bb3e.jpg",
-    "static/media/Group1.jpg": "/Web/static/media/Group1.6b2a90a81d9b70236bef.jpg",
-    "static/media/Group5.jpg": "/Web/static/media/Group5.01283e5859c61be55b12.jpg",
-    "static/media/Group4.jpg": "/Web/static/media/Group4.fd3e5997185c4b71836f.jpg",
+    "main.css": "/Web/static/css/main.97f6acb3.css",
+    "main.js": "/Web/static/js/main.5ce64080.js",
+    "static/media/astronaut.svg": "/Web/static/media/astronaut.c0ba4473ce6f9e2014dc30e2b9a2517d.svg",
+    "static/media/home-white-monkey.svg": "/Web/static/media/home-white-monkey.2e7d2ae46868b41d40dab00139c49782.svg",
+    "static/media/Group2.svg": "/Web/static/media/Group2.4049dae34f33ae78cbbae346cdad7158.svg",
+    "static/media/Group4.svg": "/Web/static/media/Group4.0437ae4bcc2d4a44022faf94b97a8146.svg",
+    "static/media/Group1.svg": "/Web/static/media/Group1.b0cd58a5c29c3f1ad6c2c429b57e9b07.svg",
+    "static/media/Group5.svg": "/Web/static/media/Group5.a87c36f6abfbc77fb2543a2f3740ba10.svg",
+    "static/media/Group3.svg": "/Web/static/media/Group3.aecc19993e00a04fc5a723ea2d9e6958.svg",
+    "static/media/Gilroy-Medium.ttf": "/Web/static/media/Gilroy-Medium.f9f832b0ed3f1ab138c9.ttf",
     "static/media/Gilroy-Regular.ttf": "/Web/static/media/Gilroy-Regular.b91b0127c56a8e5f9e83.ttf",
     "static/media/Gilroy-SemiBold.ttf": "/Web/static/media/Gilroy-SemiBold.6780292641f883b3dad3.ttf",
     "static/media/Gilroy-Bold.ttf": "/Web/static/media/Gilroy-Bold.b900325e44ec0c673e88.ttf",
+    "static/media/card-img2.svg": "/Web/static/media/card-img2.4c4db90ed4b7a93251f16b9986153ec2.svg",
+    "static/media/card-img1.svg": "/Web/static/media/card-img1.126bdad575ad9be8ea86765ec3f237c6.svg",
+    "static/media/Mad Monkey-logo.svg": "/Web/static/media/Mad Monkey-logo.984464dc002715b766682fafd1b3f26e.svg",
     "index.html": "/Web/index.html",
-    "main.a83fe520.css.map": "/Web/static/css/main.a83fe520.css.map",
-    "main.9bbb8153.js.map": "/Web/static/js/main.9bbb8153.js.map"
+    "main.97f6acb3.css.map": "/Web/static/css/main.97f6acb3.css.map",
+    "main.5ce64080.js.map": "/Web/static/js/main.5ce64080.js.map"
   },
   "entrypoints": [
-    "static/css/main.a83fe520.css",
-    "static/js/main.9bbb8153.js"
+    "static/css/main.97f6acb3.css",
+    "static/js/main.5ce64080.js"
   ]
 }
