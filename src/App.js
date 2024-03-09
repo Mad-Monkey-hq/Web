@@ -13,7 +13,7 @@ import Services from "./components/Services";
 function App() {
   return (
     <>
-      <div className='bg-black h-screen w-screen'>
+      <div className='bg-black h-screen w-screen overflow-x-scroll no-scrollbar'>
         <Router>
           <Navbar />
           <Routes>

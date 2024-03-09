@@ -1,14 +1,13 @@
 import React from "react";
 import {
   Link,
-  Routes
 } from "react-router-dom";
-import img1 from "../images/Mad Monkey.jpeg"
+import img1 from "../images/Mad Monkey-logo.svg"
 
 function Navbar() {
   return (
     <div>
-      <header className="top-0 left-0 w-full h-16 flex justify-between items-center">
+      <header className="top-0 left-0 w-screen h-16 flex justify-between items-center">
         <div className="mt-20 ml-10"><img src={img1} /></div>
         <nav className="text-base text-white gilroy-regular mt-20 mr-10">
           <Link to="/" className="p-8 transition duration-0.3 hover:text-yellow-700">

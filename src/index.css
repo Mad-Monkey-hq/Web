@@ -29,6 +29,15 @@
     font-family: gilroy-regular;
 }
 
+@font-face {
+    font-family: gilroy-medium;
+    src: url("../public/Font-Gilroy/Gilroy-Medium.ttf");
+}
+
+.gilroy-medium{
+    font-family: gilroy-medium;
+}
+
 .no-scrollbar::-webkit-scrollbar{
     display: none;
 }

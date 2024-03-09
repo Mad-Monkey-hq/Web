@@ -1,18 +1,13 @@
 import React from 'react';
-import lady1 from "../images/Group1.jpg";
-import lady2 from "../images/Group2.jpg";
-import lady3 from "../images/Group3.jpg";
-import lady4 from "../images/Group4.jpg";
-import lady5 from "../images/Group5.jpg";
-
-
-
-
+import lady1 from "../images/Group1.svg";
+import lady2 from "../images/Group2.svg";
+import lady3 from "../images/Group3.svg";
+import lady4 from "../images/Group4.svg";
+import lady5 from "../images/Group5.svg";
 
 function Services() {
     return (
-        <div className='bg-black overflow-y-scroll no-scrollbar'>
-
+        <div className=' w-screen bg-black'>
             {/* orange lady */}
             <div className='text-white mt-40 ml-20 mr-20 text-6xl'>
                 <h1 className='font-semibold'>
@@ -72,16 +67,6 @@ function Services() {
                     <h3 className='ml-20 mr-40 mt-5'>Need to make your product look picture-perfect? Our team of skilled photographers will capture your product in its best light, creating stunning images that will make your product stand out and attract customers.</h3>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-
 
         </div>
     );
