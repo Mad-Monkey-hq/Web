@@ -3,7 +3,7 @@ import "../index.css"
 function Vision() {
     return (
         <div>
-            <div className='bg-black align-right text-white mt-20 ml-20 mr-20 text-l gilroy-semibold'>
+            <div className='bg-black text-justify text-white mt-20 ml-20 mr-20 text-l gilroy-semibold'>
                 <p>Our agency, Mad Monkey, was founded with the belief that all brands, big or small, deserve the opportunity to succeed on a global scale. We believe that Indian brands have the potential to dominate the international market, with their diverse and innovative products.<br></br><br></br>
                     Our mission is to help local brands reach their full potential and become global powerhouses. We understand that not all brands have the resources or strategies needed to succeed in today's competitive market, and that's where we come in.<br></br><br></br>
                     At Mad Monkey, our motto is to provide impeccable services to all brands, helping them to achieve the success they deserve. We are dedicated to pushing the boundaries and finding new ways to promote and market our clients' products to a wider audience.<br></br><br></br>
