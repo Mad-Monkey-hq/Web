@@ -1,10 +1,20 @@
 {
   "files": {
-    "main.css": "/Web/static/css/main.97f6acb3.css",
-    "main.js": "/Web/static/js/main.5ce64080.js",
-    "static/media/astronaut.svg": "/Web/static/media/astronaut.c0ba4473ce6f9e2014dc30e2b9a2517d.svg",
+    "main.css": "/Web/static/css/main.e44117e9.css",
+    "main.js": "/Web/static/js/main.1c3fcda3.js",
+    "static/media/clients.svg": "/Web/static/media/clients.863c34d503362e47baaf080eac2fc3a1.svg",
+    "static/media/marketplaces.svg": "/Web/static/media/marketplaces.d55179b3d062bc15b0e28f955b2168cf.svg",
+    "static/media/rimg.png": "/Web/static/media/rimg.c7cbefacef836b97d0bb.png",
+    "static/media/bimg.png": "/Web/static/media/bimg.f4682db4aec108ddea60.png",
+    "static/media/astronaut.svg": "/Web/static/media/astronaut.8334719568f6be3afa6b0131fd7cdfc4.svg",
+    "static/media/yimg.png": "/Web/static/media/yimg.20d0d3b44d1d4383a7c5.png",
+    "static/media/Simply Whyte Design.svg": "/Web/static/media/Simply Whyte Design.8976ba26fd60dcb89dbdf9cbbb983660.svg",
+    "static/media/sample.svg": "/Web/static/media/sample.0042925f5cdf319caffbefaf1dc79552.svg",
     "static/media/home-white-monkey.svg": "/Web/static/media/home-white-monkey.2e7d2ae46868b41d40dab00139c49782.svg",
+    "static/media/Glasses.svg": "/Web/static/media/Glasses.5f26be23b0554ef9639ad98d04667b62.svg",
     "static/media/Group2.svg": "/Web/static/media/Group2.4049dae34f33ae78cbbae346cdad7158.svg",
+    "static/media/yagami.svg": "/Web/static/media/yagami.cd431d702b1494160646d9c4ef17416e.svg",
+    "static/media/1.svg": "/Web/static/media/1.1876199bb47a793c62607eaced6a7ceb.svg",
     "static/media/Group4.svg": "/Web/static/media/Group4.0437ae4bcc2d4a44022faf94b97a8146.svg",
     "static/media/Group1.svg": "/Web/static/media/Group1.b0cd58a5c29c3f1ad6c2c429b57e9b07.svg",
     "static/media/Group5.svg": "/Web/static/media/Group5.a87c36f6abfbc77fb2543a2f3740ba10.svg",
@@ -13,15 +23,27 @@
     "static/media/Gilroy-Regular.ttf": "/Web/static/media/Gilroy-Regular.b91b0127c56a8e5f9e83.ttf",
     "static/media/Gilroy-SemiBold.ttf": "/Web/static/media/Gilroy-SemiBold.6780292641f883b3dad3.ttf",
     "static/media/Gilroy-Bold.ttf": "/Web/static/media/Gilroy-Bold.b900325e44ec0c673e88.ttf",
+    "static/media/emo3.svg": "/Web/static/media/emo3.6fdc1fbad2c6b20a4c3d9090984088fb.svg",
+    "static/media/emo2.svg": "/Web/static/media/emo2.6964ce8d5798c1a87fdb6f3fdc32095b.svg",
+    "static/media/emo1.svg": "/Web/static/media/emo1.4d64cbc7e638812f6c1f3d5f687be84b.svg",
+    "static/media/bethebrand.svg": "/Web/static/media/bethebrand.0c8590e82944b8f897f793564b59c84d.svg",
     "static/media/card-img2.svg": "/Web/static/media/card-img2.4c4db90ed4b7a93251f16b9986153ec2.svg",
     "static/media/card-img1.svg": "/Web/static/media/card-img1.126bdad575ad9be8ea86765ec3f237c6.svg",
+    "static/media/instagram.svg": "/Web/static/media/instagram.cdd79aa6aa4397423779e26d03b4815d.svg",
     "static/media/Mad Monkey-logo.svg": "/Web/static/media/Mad Monkey-logo.984464dc002715b766682fafd1b3f26e.svg",
+    "static/media/linkedin.svg": "/Web/static/media/linkedin.6bd2c04fb9c5842301e7adcdc7bcd360.svg",
+    "static/media/Call.svg": "/Web/static/media/Call.81c3622819e7ae53f9f41b647c1be57b.svg",
+    "static/media/Message.svg": "/Web/static/media/Message.679d0a6d74285f4f15cc9d69f8462355.svg",
+    "static/media/arrowlogo.svg": "/Web/static/media/arrowlogo.2b84aa997649895cbb1997d781cf9273.svg",
+    "static/media/arrow-right.svg": "/Web/static/media/arrow-right.c5bb5197e87e1769e6b3c3d105347188.svg",
+    "static/media/arrow-left.svg": "/Web/static/media/arrow-left.46502a40e6c7dd6d829f99328d35740e.svg",
+    "static/media/facebook.svg": "/Web/static/media/facebook.37afb179a9fa671090ccb04389716a09.svg",
     "index.html": "/Web/index.html",
-    "main.97f6acb3.css.map": "/Web/static/css/main.97f6acb3.css.map",
-    "main.5ce64080.js.map": "/Web/static/js/main.5ce64080.js.map"
+    "main.e44117e9.css.map": "/Web/static/css/main.e44117e9.css.map",
+    "main.1c3fcda3.js.map": "/Web/static/js/main.1c3fcda3.js.map"
   },
   "entrypoints": [
-    "static/css/main.97f6acb3.css",
-    "static/js/main.5ce64080.js"
+    "static/css/main.e44117e9.css",
+    "static/js/main.1c3fcda3.js"
   ]
 }
