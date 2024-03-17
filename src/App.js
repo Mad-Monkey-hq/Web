@@ -8,6 +8,7 @@ import { Routes, Route } from 'react-router-dom';
 import Home from "./components/Home";
 import Vision from "./components/Vision";
 import Services from "./components/Services";
+import Contact from "./components/Contact";
 
 
 function App() {
@@ -17,9 +18,11 @@ function App() {
         <Router>
           <Navbar />
           <Routes>
-            <Route exact path="/" element={<Home />}></Route>
+            <Route exact path="/web" element={<Home />}></Route>
             <Route exact path="/Vision" element={<Vision />}></Route>
             <Route exact path="/Services" element={<Services />}></Route>
+            <Route exact path="/Contact" element={<Contact />}></Route>
+
           </Routes>
         </Router>
       </div>

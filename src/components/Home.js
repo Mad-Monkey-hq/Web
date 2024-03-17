@@ -15,6 +15,22 @@ import sample from "../images/sample.svg"
 import emo1 from "../images/emo1.svg"
 import emo2 from "../images/emo2.svg"
 import emo3 from "../images/emo3.svg"
+import green from "../images/1.svg"
+import lefta from "../images/arrow-left.svg"
+import righta from "../images/arrow-right.svg"
+import yagami from "../images/yagami.svg"
+import clients from "../images/clients.svg"
+import arrowlogo from "../images/arrowlogo.svg"
+import glasses from "../images/Glasses.svg"
+import img1 from "../images/Mad Monkey-logo.svg"
+import linkedin from "../images/linkedin.svg"
+import instagram from "../images/instagram.svg"
+import facebook from "../images/facebook.svg"
+
+
+
+
+
 
 
 
@@ -40,7 +56,7 @@ function Home() {
         </div>
         <div className='ml-10 mr-20 mt-5'>
           <Link to="#">
-            <button class="bg-gradient-to-br from-fuchsia-500 via-blue-500 to-indigo-900 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">Get in Touch</button>
+            <button class="bg-white text-black hover:bg-yellow-500 hover:bg-blue-700 font-bold rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 rounded-lg p-2">Get in Touch</button>
           </Link>
         </div>
       </div>
@@ -51,7 +67,7 @@ function Home() {
         <div className='flex-col ml-10'>
           <div className='gilroy-semibold text-yellow-400 mt-10'>ABOUT US ---</div>
           <div className='text-white text-4xl gilroy-semibold mt-5'>Your Brand, Our Reach,<br /> a saga forged in heaven</div>
-          <div className='text-white mt-10 text-lg gilroy-medium text-justify mr-10'>Welcome to the jungle of Madmonkey. To put into layman’s terms, we are a <br />group of service providers who “curate-with-care”, the most impactful solutions to your marketing needs.<br /><br />
+          <div className='text-white mt-10 text-lg gilroy-medium text-justify mr-10'>Welcome to the jungle of Madmonkey. To put into layman’s terms, we are a group of service providers who “curate-with-care”, the most impactful solutions to your marketing needs.<br /><br />
             In other words, we put the “fun” in the “fun-damentals” of your marketing needs,from transformation, development to execution.<br /><br />
             Our motto is to customize solutions to suit your Brand needs that make an impact in the market!<br /><br />
             Connect with us to leave your worry behind and go ballistic into the wide world of brands, and this is our Madmonkey promise.
@@ -115,7 +131,8 @@ function Home() {
     <div className='text-center bg-white w-screen h-96 mt-10 pt-20 gilroy-semibold'>
       <div>WHAT DO YOU NEED TO GET YOUR BUSINESS MOVING?</div>
       <div className='mt-10 text-4xl '>Join the Mad Monkey bandwagon and solidify your brand in this concrete jungle now!</div>
-      <button className='mt-10 bg-black text-white rounded-lg p-2'>speak to us</button>
+      
+      <button class="transition ease-in-out delay-150 bg-black hover:-translate-y-1 hover:scale-110 hover:bg-yellow-500 duration-300 mt-10 bg-black text-white rounded-lg p-2">speak to us</button>
     </div>
 
     {/* part 5 */}
@@ -143,7 +160,7 @@ function Home() {
       <div className='flex-col w-1/2'>
         <div className='gilroy-semibold mt-20 text-white text-4xl'>Want campaigns on your own platform ?</div>
         <div className='gilroy-medium text-white mt-10 mr-10'><p className='text-justify'>The brand is all about how your customers think about you. With our extensive experience in E-commerce marketing, grow your brand name from scratch. Kick-start your platform, Ignite the fire, sit back and watch Madmonkey spread your light in the "Lanka" of budding entrepreneurship.</p></div>
-        <button className='mt-10 bg-white text-black rounded-lg p-2 gilroy-medium'>speak to us</button>
+        <button class="gilroy-bold transition ease-in-out delay-150 bg-black hover:-translate-y-1 hover:scale-110 hover:bg-yellow-500 duration-300 mt-10 bg-white text-black rounded-lg p-2">speak to us</button>
       </div>
     </div>
 
@@ -171,14 +188,85 @@ function Home() {
           <div className='m-5 text-white text-justify gilroy-medium'>We have trained our team to service our clients in the best way possible. So, rest assured any time you have a query, we will be there on the other side of the call walking you out of every doubt.</div>
         </div>
       </div>
+    </div>
+    {/* stats part */}
+    <div className='w-screen h-96 mt-20'>
+      <img src={green}></img>
+    </div>
 
+    {/* below stats whats it like */}
+    <div className='flex'>
+      <div className='flex-col w-1/2 ml-20'>
+        <div className='gilroy-semibold mt-20 text-white text-4xl'>What it’s like to collaborate together.</div>
+        <div className='gilroy-medium text-white mt-5 mr-10'><p className='text-justify'>Become partners for the long run</p></div>
+        <div className='flex mt-40 gap-10'>
+          <button className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110'><img src={lefta}></img></button>
+          <button className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110'><img src={righta}></img></button>
+        </div>
+      </div>
+      <div className='mt-10 ml-10'>
+        <img src={yagami}></img>
+      </div>
+    </div>
+
+    {/* clients */}
+    <div className='w-screen mt-10 mb-10'>
+      <img src={clients}></img>
+    </div>
+
+    {/* pink card */}
+    <div className='h-72 w-100 m-20 rounded-3xl bg-gradient-to-r from-red-600 via-red-600 to-fuchsia-500'>
+      <div className='flex'>
+        <div className='flex-col mt-10'>
+          <div className='m-10 gilroy-bold text-white text-4xl'>Make Mad Monkey your growth partner today </div>
+          <div className='flex gilroy-bold text-white ml-10 text-xl underline decoration-white underline-offset-2'>
+            <a href="#">Contact Us</a>
+            <img className='h-7 w-10' src={arrowlogo}></img>
+          </div>
+        </div>
+
+        <img src={glasses} className='h-64 mt-8 mr-10 ml-10'></img>
+      </div>
+    </div>
+
+    {/* footer */}
+
+    <div className='flex bg-white w-screen h-96 gap-5'>
+    
+      <div className='flex-col ml-10 mt-24'>
+        <img src={img1}></img>
+        <div className='gilroy-semibold text-orange-500 mt-5'>India’s Leading Product Marketing Agency</div>
+      </div>
+
+      <div className='flex-col ml-20 mt-20'>
+        <div className='gilroy-bold text-orange-500 text-xl'>Navigation</div>
+        <div className='gilroy-medium mt-5'><a href="#">Home</a></div>
+        <div className='gilroy-medium mt-5'><a href="#">About Us</a></div>
+        <div className='gilroy-medium mt-5'><a href="#">Case Studies</a></div>
+        <div className='gilroy-medium mt-5'><a href="#">Contact Us</a></div>
+      </div>
+
+      <div className='flex-col ml-20 mt-20'>
+        <div className='gilroy-bold text-orange-500 text-xl'>Reach Us</div>
+        <div className='gilroy-medium mt-5'><a href="#">+91 9110660335</a></div>
+        <div className='gilroy-medium mt-5'><a href="#">connect@madmonkey.in</a></div>
+      </div>
+
+      <div className='flex-col ml-20 mt-20'>
+        <div className='gilroy-bold text-orange-500 text-xl'>Connect with us</div>
+        <div className='flex gap-5 mt-5'>
+          <a href="https://www.linkedin.com/company/madmonkeyhq/about/"><img src={linkedin}></img></a>
+          <a href="#"><img src={instagram}></img></a>
+          <a href="#"><img src={facebook}></img></a>
+        </div>
+      </div>
+    </div>
+
+    <div className='gilroy-semibold bg-orange-500 text-center text-white h-10'>Designed & built with passion in India 🚀</div>
       
     </div>
 
-
-
-
-    </div>
+ 
   )
 }
 

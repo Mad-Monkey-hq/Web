@@ -10,7 +10,7 @@ function Navbar() {
       <header className="top-0 left-0 w-screen h-16 flex justify-between items-center">
         <div className="mt-20 ml-10"><img src={img1} /></div>
         <nav className="text-base text-white gilroy-regular mt-20 mr-10">
-          <Link to="/" className="p-8 transition duration-0.3 hover:text-yellow-700">
+          <Link to="/Web" className="p-8 transition duration-0.3 hover:text-yellow-700">
             Home
           </Link>
           <Link to="/Services" className="p-8 transition duration-0.3 hover:text-yellow-700">
@@ -22,7 +22,7 @@ function Navbar() {
           <Link to="/Vision" className="p-8 transition duration-0.3 hover:text-yellow-700">
             Our Vision
           </Link>
-          <Link to="/Contact Us" className="p-8 transition duration-0.3 hover:text-yellow-700">
+          <Link to="/Contact" className="p-8 transition duration-0.3 hover:text-yellow-700">
             Contact Us
           </Link>
           <Link to="#">
