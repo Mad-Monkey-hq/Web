@@ -3,32 +3,35 @@ import {
   Link,
 } from "react-router-dom";
 import img1 from "../images/Mad Monkey-logo.svg"
+import navbaricon from "../images/navbar-icon.svg"
 
 function Navbar() {
+
   return (
     <div>
-      <header className="top-0 left-0 w-screen h-16 flex justify-between items-center">
-        <div className="mt-20 ml-10"><img src={img1} /></div>
-        <nav className="text-base text-white gilroy-regular mt-20 mr-10">
-          <Link to="/Web" className="p-8 transition duration-0.3 hover:text-yellow-700">
+      <header className="sticky top-0 z-10">
+        <img className="phone:w-30 phone:w-40 w-1/3 absolute left-0 top-0 m-10" src={img1} />
+        <nav className="phone:hidden desktop:flex laptop:flex m-10 absolute right-0 top-0 gap-10 text-white gilroy-regular">
+          <Link to="/Web" className="transition duration-0.3 hover:text-yellow-700">
             Home
           </Link>
-          <Link to="/Services" className="p-8 transition duration-0.3 hover:text-yellow-700">
+          <Link to="/Services" className="transition duration-0.3 hover:text-yellow-700">
             Services
           </Link>
-          <Link to="/Testimonials" className="p-8 transition duration-0.3 hover:text-yellow-700">
+          <Link to="/Testimonials" className="transition duration-0.3 hover:text-yellow-700">
             Testimonials
           </Link>
-          <Link to="/Vision" className="p-8 transition duration-0.3 hover:text-yellow-700">
+          <Link to="/Vision" className="transition duration-0.3 hover:text-yellow-700">
             Our Vision
           </Link>
-          <Link to="/Contact" className="p-8 transition duration-0.3 hover:text-yellow-700">
+          <Link to="/Contact" className="transition duration-0.3 hover:text-yellow-700">
             Contact Us
           </Link>
           <Link to="#">
-            <button class="bg-gradient-to-br from-fuchsia-500 via-blue-500 to-indigo-900 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">1 hour free advice</button>
+            <button class="p-2 w-40 rounded-full bg-gradient-to-br from-fuchsia-500 via-blue-500 to-indigo-900 hover:bg-blue-700 text-white font-bold">1 hour free advice</button>
           </Link>
         </nav>
+        <button className="laptop:hidden absolute right-0 top-0 w-8 m-10"><img src={navbaricon}></img></button>
       </header>
     </div>
   );

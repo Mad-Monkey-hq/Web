@@ -26,48 +26,38 @@ import img1 from "../images/Mad Monkey-logo.svg"
 import linkedin from "../images/linkedin.svg"
 import instagram from "../images/instagram.svg"
 import facebook from "../images/facebook.svg"
-
-
-
-
-
-
-
+import orange from "../images/orangef.svg"
 
 
 function Home() {
   return (
     <div>
 
-      {/* part-1 */}
-      <div className='flex-col'>
-        <div className='flex gap-40'>
-          <div className='gilroy-semibold text-yellow-400 mt-40 ml-10 mr-20 text-5xl'>
-            <h2 className='font-semibold'>
-              India’s Leading <br />Product Marketing<br /> Agency
+      {/* astro-monkey page */}
+      <div className='laptop:flex-col phone:text-center'>
+        <div className='laptop:flex phone:center'>
+          <div className='flex-col phone:text-center laptop:text-left laptop:mt-20'>
+            <h2 className='phone:text-3xl  laptop:text-5xl text-yellow-400 laptop:text-left mt-32 laptop:ml-10 gilroy-semibold'>
+              India’s Leading Product Marketing Agency
             </h2>
+            <div className='laptop:m-10 phone:m-10 phone:mt-5 gilroy-regular text-white phone:text-md laptop:text-xl'>With Madmonkey by the side, Recognition goes bananas for your brand! </div>
+
+            <Link to="#"><button class="bg-white phone:m-10 laptop:ml-10 text-black hover:bg-yellow-500 hover:bg-blue-700 font-bold rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 rounded-lg p-2">Get in Touch</button></Link>
+
           </div>
-          <div className='flex bg-orange-500 mt-20 rounded-full h-96 w-96 justify-center items-center'>
-            <img className='h-64 w-64' src={astro}></img>
-          </div>
+            <img className='phone:hidden laptop:flex laptop:w-100 m-28' src={orange}></img>
         </div>
-        <div className='gilroy-regular text-white ml-10 text-xl'>
-          With Madmonkey by the side, Recognition goes<br /> bananas for your brand!
-        </div>
-        <div className='ml-10 mr-20 mt-5'>
-          <Link to="#">
-            <button class="bg-white text-black hover:bg-yellow-500 hover:bg-blue-700 font-bold rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 rounded-lg p-2">Get in Touch</button>
-          </Link>
-        </div>
+      
       </div>
 
-      {/* part 2 */}
-      <div className='flex ml-10 mt-40'>
-        <img className='h-1/3 w-1/3' src={monkey2}></img>
-        <div className='flex-col ml-10'>
-          <div className='gilroy-semibold text-yellow-400 mt-10'>ABOUT US ---</div>
-          <div className='text-white text-4xl gilroy-semibold mt-5'>Your Brand, Our Reach,<br /> a saga forged in heaven</div>
-          <div className='text-white mt-10 text-lg gilroy-medium text-justify mr-10'>Welcome to the jungle of Madmonkey. To put into layman’s terms, we are a group of service providers who “curate-with-care”, the most impactful solutions to your marketing needs.<br /><br />
+      {/* about us */}
+      <div className='laptop:flex phone:justify-self-center m-5'>
+        <img className='phone:w-full laptop:w-1/3' src={monkey2}></img>
+        <div className='laptop:m-10'>
+          <div className='laptop:text-left phone:hidden gilroy-semibold text-yellow-400'>ABOUT US ---</div>
+          <div className='phone:text-center laptop:hidden phone:mt-5 gilroy-semibold text-yellow-400'>- ABOUT US -</div>
+          <div className='text-white phone:text-center phone:text-2xl phone:mt-5 laptop:text-left laptop:text-4xl gilroy-semibold mt-10'>Your Brand, Our Reach,<br /> a saga forged in heaven</div>
+          <div className='laptop:text-2xl text-justify phone:text-sm mt-10 text-white gilroy-medium'>Welcome to the jungle of Madmonkey. To put into layman’s terms, we are a group of service providers who “curate-with-care”, the most impactful solutions to your marketing needs.<br /><br />
             In other words, we put the “fun” in the “fun-damentals” of your marketing needs,from transformation, development to execution.<br /><br />
             Our motto is to customize solutions to suit your Brand needs that make an impact in the market!<br /><br />
             Connect with us to leave your worry behind and go ballistic into the wide world of brands, and this is our Madmonkey promise.
@@ -76,61 +66,74 @@ function Home() {
       </div>
 
       {/* part-3 */}
-      <div className='flex-col ml-10 mt-40'>
-        <div className='gilroy-semibold text-yellow-400 mt-20'>SERVICES ---</div>
-        <div className='gilroy-semibold mt-5 text-white text-4xl'>Our offerings which will <br />make you grow</div>
-        <div className='flex gap-10 mt-10'>
-          <div className='rounded-3xl bg-gradient-to-r from-amber-500 via-red-400 to-pink-500 h-192 w-1/2 mt-5 mb-5'>
+      <div className='laptop:flex-col laptop:m-5'>
+        <div className='laptop:flex phone:hidden laptop:ml-10 mt-20 gilroy-semibold text-yellow-400'>SERVICES ---</div>
+        <div className='laptop:hidden phone:text-center mt-20 gilroy-semibold text-yellow-400'>- SERVICES -</div>
+        <div className='phone:text-justify gilroy-semibold text-white laptop:text-4xl phone:text-3xl phone:m-10'>Our offerings which will make you grow</div>
+        <div className='laptop:flex gap-10 mt-10'>
+          <div className='rounded-3xl bg-gradient-to-r from-amber-500 via-red-400 to-pink-500 laptop:h-192 laptop:w-1/2 phone:w-100 phone:h-50 phone:m-5 phone:p-2'>
             <img className="mt-10 ml-10" src={card1}></img>
 
-            <div className='text-white mt-10 ml-10 gilroy-semibold text-2xl'>Customer Review Management</div>
+            <div className='text-white mt-10 ml-10 gilroy-semibold laptop:text-2xl phone:text-xl'>Customer Review Management</div>
 
-            <div className='text-white ml-10 mt-5 mr-20 mb-10 gilroy-medium'><p className='text-justify'>customer reviews are an integral part of your brand. It builds trust, increases traffic and enhances sales. We have a host of product review solutions if you are a brand who needs to make a mark in the industry. Starting from brands who need footfall, to new brands looking to make an impact, we customize product review services across diverse e-commerce platforms to help your brand leave a mark.</p></div>
+            <div className='text-white laptop:m-10 phone:m-5 gilroy-medium'><p className='text-justify'>customer reviews are an integral part of your brand. It builds trust, increases traffic and enhances sales. We have a host of product review solutions if you are a brand who needs to make a mark in the industry. Starting from brands who need footfall, to new brands looking to make an impact, we customize product review services across diverse e-commerce platforms to help your brand leave a mark.</p></div>
           </div>
 
-          <div className='rounded-3xl bg-gradient-to-r from-amber-500 via-red-400 to-pink-500 h-192 w-1/2 mr-10 mt-5 mb-5'>
+          <div className='rounded-3xl bg-gradient-to-r from-amber-500 via-red-400 to-pink-500 laptop:h-192 laptop:w-1/2 phone:w-100 phone:h-50 phone:m-5 phone:p-2'>
             <img className="mt-10 ml-10" src={card2}></img>
 
-            <div className='text-white mt-10 ml-10 gilroy-semibold text-2xl'>Influencer Marketing</div>
+            <div className='text-white mt-10 ml-10 gilroy-semibold laptop:text-2xl phone:text-xl'>Influencer Marketing</div>
 
-            <div className='text-white ml-10 mt-5 mr-10 mb-10 gilroy-medium text-justify'>Ever wonder if your brand can start a trend? Well, with our bandwidth of macro and micro influencers, you sure can fructify your brand into a trend! The influencer marketing factory is a well oiled machine in this digital era. Thus, we curate brand trends with our verified social media influencers to invent, curate and deliver trends with a promise to turn your products and services into the hype of tomorrow.</div>
+            <div className='text-white laptop:m-10 phone:m-5 gilroy-medium'><p className='text-justify'>Ever wonder if your brand can start a trend? Well, with our bandwidth of macro and micro influencers, you sure can fructify your brand into a trend! The influencer marketing factory is a well oiled machine in this digital era. Thus, we curate brand trends with our verified social media influencers to invent, curate and deliver trends with a promise to turn your products and services into the hype of tomorrow.</p></div>
           </div>
+
         </div>
       </div>
 
       {/* part 4 services */}
-      <div className='flex-col ml-10 mt-40'>
-        <div className='gilroy-semibold text-yellow-400 mt-20'>KEY PROCESS ---</div>
-        <div className='gilroy-semibold mt-5 text-white text-4xl'>We believe in Design <br />Thinking</div>
+      <div className='laptop:flex-col phone:text-center mt-10'>
+        <div className='phone:hidden laptop:flex gilroy-semibold text-yellow-400 mt-20'>KEY PROCESS ---</div>
+        <div className='laptop:hidden phone:text-center gilroy-semibold text-yellow-400 mt-20'>- KEY PROCESS -</div>
+        <div className='laptop:text-left phone:text-center gilroy-semibold mt-5 text-white text-4xl'>We believe in Design Thinking</div>
       </div>
 
-      <div className='flex'>
-        <div className='ml-10 flex-col'>
-          <div className='mt-5 text-white underline decoration-yellow-400 decoration-2 gilroy-regular'>01</div>
-          <div className='text-white gilroy-bold mt-5'>Research</div>
-          <div className='gilroy-medium text-white'><p className='text-justify'>To understand your marketing needs, we study your business and come up with a tailored solution</p></div>
-          <div className='h-4/5 w-92 mt-20 rounded-3xl'><img src={yimg}></img></div>
+      <div className='laptop:flex phone:text-center'>
+
+        <div className='phone:text-justify laptop:flex-col m-5'>
+          <div className='phone:flex phone:gap-2 text-white gilroy-bold'>
+            <div className='text-white underline decoration-yellow-400 decoration-2 gilroy-regular'>01</div>
+            <div>Research</div>
+          </div>
+          <div className='gilroy-medium text-white phone:text-lg mt-5'><p className='text-justify'>To understand your marketing needs, we study your business and come up with a tailored solution</p></div>
+          <img className='phone:mt-5 phone:w-full rounded-3xl' src={yimg}></img>
         </div>
 
-        <div className='ml-10 flex-col'>
-          <div className='mt-5 text-white underline decoration-yellow-400 decoration-2 gilroy-regular'>02</div>
-          <div className='text-white gilroy-bold mt-5'>Strategy</div>
-          <div className='gilroy-medium text-white'><p className='text-justify'>The possible solutions are then churned with a cup of coffee into strategizing for the best possible outcome</p></div>
-          <div className='h-4/5 w-92 mt-20 rounded-3xl'><img src={rimg}></img></div>
+        <div className='phone:text-justify laptop:flex-col m-5'>
+          <div className='phone:flex phone:gap-2 text-white gilroy-bold'>
+            <div className='text-white underline decoration-yellow-400 decoration-2 gilroy-regular'>02</div>
+            <div>Strategy</div>
+          </div>
+          <div className='gilroy-medium text-white phone:text-lg mt-5'><p className='text-justify'>The possible solutions are then churned with a cup of coffee into strategizing for the best possible outcome</p></div>
+          <img className='phone:mt-5 phone:w-full rounded-3xl' src={rimg}></img>
         </div>
 
-        <div className='ml-10 flex-col mr-10'>
-          <div className='mt-5 text-white underline decoration-yellow-400 decoration-2 gilroy-regular'>03</div>
-          <div className='text-white gilroy-bold mt-5'>Execution</div>
-          <div className='gilroy-medium text-white'><p className='text-justify'>Our highly skilled and determined team then put their heart and soul to execute these strategies.</p></div>
-          <div className='h-4/5 w-92 mt-20 rounded-3xl'><img src={bimg}></img></div>
+        <div className='phone:text-justify laptop:flex-col m-5'>
+          <div className='phone:flex phone:gap-2 text-white gilroy-bold'>
+            <div className='text-white underline decoration-yellow-400 decoration-2 gilroy-regular'>03</div>
+            <div>Execution</div>
+          </div>
+          <div className='gilroy-medium text-white phone:text-lg mt-5'><p className='text-justify'>Our highly skilled and determined team then put their heart and soul to execute these strategies.</p></div>
+          <img className='phone:mt-5 phone:w-full rounded-3xl' src={bimg}></img>
         </div>
+
+       
+
       </div>
 
      
-    <div className='text-center bg-white w-screen h-96 mt-10 pt-20 gilroy-semibold'>
-      <div>WHAT DO YOU NEED TO GET YOUR BUSINESS MOVING?</div>
-      <div className='mt-10 text-4xl '>Join the Mad Monkey bandwagon and solidify your brand in this concrete jungle now!</div>
+    <div className='text-center bg-white w-screen h-96 laptop:mt-10 laptop:p-20 phone:mt-5 phone:p-10 gilroy-semibold'>
+      <div className='phone:text-md'>WHAT DO YOU NEED TO GET YOUR BUSINESS MOVING?</div>
+      <div className='mt-5 laptop:text-4xl phone:text-2xl'>Join the Mad Monkey bandwagon and solidify your brand in this concrete jungle now!</div>
       
       <button class="transition ease-in-out delay-150 bg-black hover:-translate-y-1 hover:scale-110 hover:bg-yellow-500 duration-300 mt-10 bg-black text-white rounded-lg p-2">speak to us</button>
     </div>
@@ -190,9 +193,8 @@ function Home() {
       </div>
     </div>
     {/* stats part */}
-    <div className='w-screen h-96 mt-20'>
-      <img src={green}></img>
-    </div>
+      <img className='w-screen mt-20' src={green}></img>
+  
 
     {/* below stats whats it like */}
     <div className='flex'>
@@ -210,9 +212,9 @@ function Home() {
     </div>
 
     {/* clients */}
-    <div className='w-screen mt-10 mb-10'>
-      <img src={clients}></img>
-    </div>
+  
+    <img className='w-screen mt-20' src={clients}></img>
+ 
 
     {/* pink card */}
     <div className='h-72 w-100 m-20 rounded-3xl bg-gradient-to-r from-red-600 via-red-600 to-fuchsia-500'>
