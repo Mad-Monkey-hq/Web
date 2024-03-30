@@ -31,7 +31,11 @@ function Navbar() {
             <button class="p-2 w-40 rounded-full bg-gradient-to-br from-fuchsia-500 via-blue-500 to-indigo-900 hover:bg-blue-700 text-white font-bold">1 hour free advice</button>
           </Link>
         </nav>
-        <button className="laptop:hidden absolute right-0 top-0 w-8 m-10"><img src={navbaricon}></img></button>
+        <button className="laptop:hidden absolute right-0 top-0 phone:w-10 phone:mt-7">
+          <img src={navbaricon}>
+            
+          </img>
+        </button>
       </header>
     </div>
   );

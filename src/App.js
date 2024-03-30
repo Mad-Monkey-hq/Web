@@ -14,7 +14,7 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <>
-      <div className='bg-black h-screen w-screen overflow-x-scroll no-scrollbar'>
+      <div className='bg-black h-screen w-screen overflow-x-scroll overflow-y-scroll no-scrollbar'>
         <Router>
           <Navbar />
           <Routes>
@@ -22,7 +22,6 @@ function App() {
             <Route exact path="/Vision" element={<Vision />}></Route>
             <Route exact path="/Services" element={<Services />}></Route>
             <Route exact path="/Contact" element={<Contact />}></Route>
-
           </Routes>
         </Router>
       </div>
