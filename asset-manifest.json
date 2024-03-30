@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Web/static/css/main.e44117e9.css",
-    "main.js": "/Web/static/js/main.1c3fcda3.js",
+    "main.css": "/Web/static/css/main.59f2547b.css",
+    "main.js": "/Web/static/js/main.68ab45b4.js",
     "static/media/clients.svg": "/Web/static/media/clients.863c34d503362e47baaf080eac2fc3a1.svg",
     "static/media/marketplaces.svg": "/Web/static/media/marketplaces.d55179b3d062bc15b0e28f955b2168cf.svg",
     "static/media/rimg.png": "/Web/static/media/rimg.c7cbefacef836b97d0bb.png",
@@ -39,11 +39,13 @@
     "static/media/arrow-left.svg": "/Web/static/media/arrow-left.46502a40e6c7dd6d829f99328d35740e.svg",
     "static/media/facebook.svg": "/Web/static/media/facebook.37afb179a9fa671090ccb04389716a09.svg",
     "index.html": "/Web/index.html",
-    "main.e44117e9.css.map": "/Web/static/css/main.e44117e9.css.map",
-    "main.1c3fcda3.js.map": "/Web/static/js/main.1c3fcda3.js.map"
+    "static/media/navbar-icon.svg": "/Web/static/media/navbar-icon.cba6305a83c7f773bdcc09f54a8fe93f.svg",
+    "static/media/orangef.svg": "/Web/static/media/orangef.70b29e75a19c444d09ffe37665287f0c.svg",
+    "main.59f2547b.css.map": "/Web/static/css/main.59f2547b.css.map",
+    "main.68ab45b4.js.map": "/Web/static/js/main.68ab45b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.e44117e9.css",
-    "static/js/main.1c3fcda3.js"
+    "static/css/main.59f2547b.css",
+    "static/js/main.68ab45b4.js"
   ]
 }
