@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Web/static/css/main.59f2547b.css",
-    "main.js": "/Web/static/js/main.68ab45b4.js",
+    "main.css": "/Web/static/css/main.e1ba5461.css",
+    "main.js": "/Web/static/js/main.2c092101.js",
     "static/media/clients.svg": "/Web/static/media/clients.863c34d503362e47baaf080eac2fc3a1.svg",
     "static/media/marketplaces.svg": "/Web/static/media/marketplaces.d55179b3d062bc15b0e28f955b2168cf.svg",
     "static/media/rimg.png": "/Web/static/media/rimg.c7cbefacef836b97d0bb.png",
@@ -16,7 +16,7 @@
     "static/media/yagami.svg": "/Web/static/media/yagami.cd431d702b1494160646d9c4ef17416e.svg",
     "static/media/1.svg": "/Web/static/media/1.1876199bb47a793c62607eaced6a7ceb.svg",
     "static/media/Group4.svg": "/Web/static/media/Group4.0437ae4bcc2d4a44022faf94b97a8146.svg",
-    "static/media/Group1.svg": "/Web/static/media/Group1.b0cd58a5c29c3f1ad6c2c429b57e9b07.svg",
+    "static/media/Group1.svg": "/Web/static/media/Group1.c179912a1acb2a1df6548f64b5fd568d.svg",
     "static/media/Group5.svg": "/Web/static/media/Group5.a87c36f6abfbc77fb2543a2f3740ba10.svg",
     "static/media/Group3.svg": "/Web/static/media/Group3.aecc19993e00a04fc5a723ea2d9e6958.svg",
     "static/media/Gilroy-Medium.ttf": "/Web/static/media/Gilroy-Medium.f9f832b0ed3f1ab138c9.ttf",
@@ -26,9 +26,11 @@
     "static/media/emo3.svg": "/Web/static/media/emo3.6fdc1fbad2c6b20a4c3d9090984088fb.svg",
     "static/media/emo2.svg": "/Web/static/media/emo2.6964ce8d5798c1a87fdb6f3fdc32095b.svg",
     "static/media/emo1.svg": "/Web/static/media/emo1.4d64cbc7e638812f6c1f3d5f687be84b.svg",
+    "static/media/Group 156.svg": "/Web/static/media/Group 156.105e9d15c7d12b076b4fe7b7aa7e2ff0.svg",
     "static/media/bethebrand.svg": "/Web/static/media/bethebrand.0c8590e82944b8f897f793564b59c84d.svg",
     "static/media/card-img2.svg": "/Web/static/media/card-img2.4c4db90ed4b7a93251f16b9986153ec2.svg",
     "static/media/card-img1.svg": "/Web/static/media/card-img1.126bdad575ad9be8ea86765ec3f237c6.svg",
+    "static/media/close.svg": "/Web/static/media/close.4c8660ce7431f08f983991cc63a0e43d.svg",
     "static/media/instagram.svg": "/Web/static/media/instagram.cdd79aa6aa4397423779e26d03b4815d.svg",
     "static/media/Mad Monkey-logo.svg": "/Web/static/media/Mad Monkey-logo.984464dc002715b766682fafd1b3f26e.svg",
     "static/media/linkedin.svg": "/Web/static/media/linkedin.6bd2c04fb9c5842301e7adcdc7bcd360.svg",
@@ -41,11 +43,11 @@
     "index.html": "/Web/index.html",
     "static/media/navbar-icon.svg": "/Web/static/media/navbar-icon.cba6305a83c7f773bdcc09f54a8fe93f.svg",
     "static/media/orangef.svg": "/Web/static/media/orangef.70b29e75a19c444d09ffe37665287f0c.svg",
-    "main.59f2547b.css.map": "/Web/static/css/main.59f2547b.css.map",
-    "main.68ab45b4.js.map": "/Web/static/js/main.68ab45b4.js.map"
+    "main.e1ba5461.css.map": "/Web/static/css/main.e1ba5461.css.map",
+    "main.2c092101.js.map": "/Web/static/js/main.2c092101.js.map"
   },
   "entrypoints": [
-    "static/css/main.59f2547b.css",
-    "static/js/main.68ab45b4.js"
+    "static/css/main.e1ba5461.css",
+    "static/js/main.2c092101.js"
   ]
 }
