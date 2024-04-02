@@ -45,7 +45,7 @@ function Home() {
             <Link to="#"><button class="bg-white phone:m-10 laptop:ml-10 text-black hover:bg-yellow-500 hover:bg-blue-700 font-bold rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 rounded-lg p-2">Get in Touch</button></Link>
 
           </div>
-            <img className='phone:hidden laptop:flex laptop:w-100 m-28' src={orange}></img>
+            <img className='phone:hidden laptop:flex laptop:w-100 m-28' src={astro}></img>
         </div>
       
       </div>
