@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/Web/static/css/main.e1ba5461.css",
-    "main.js": "/Web/static/js/main.2c092101.js",
+    "main.css": "/Web/static/css/main.57c9be3b.css",
+    "main.js": "/Web/static/js/main.7be6ad35.js",
     "static/media/clients.svg": "/Web/static/media/clients.863c34d503362e47baaf080eac2fc3a1.svg",
     "static/media/marketplaces.svg": "/Web/static/media/marketplaces.d55179b3d062bc15b0e28f955b2168cf.svg",
     "static/media/rimg.png": "/Web/static/media/rimg.c7cbefacef836b97d0bb.png",
     "static/media/bimg.png": "/Web/static/media/bimg.f4682db4aec108ddea60.png",
-    "static/media/astronaut.svg": "/Web/static/media/astronaut.8334719568f6be3afa6b0131fd7cdfc4.svg",
+    "static/media/astronaut.svg": "/Web/static/media/astronaut.11c23aa6b5cebda9ffaae806a2a110ae.svg",
     "static/media/yimg.png": "/Web/static/media/yimg.20d0d3b44d1d4383a7c5.png",
     "static/media/Simply Whyte Design.svg": "/Web/static/media/Simply Whyte Design.8976ba26fd60dcb89dbdf9cbbb983660.svg",
     "static/media/sample.svg": "/Web/static/media/sample.0042925f5cdf319caffbefaf1dc79552.svg",
@@ -43,11 +43,11 @@
     "index.html": "/Web/index.html",
     "static/media/navbar-icon.svg": "/Web/static/media/navbar-icon.cba6305a83c7f773bdcc09f54a8fe93f.svg",
     "static/media/orangef.svg": "/Web/static/media/orangef.70b29e75a19c444d09ffe37665287f0c.svg",
-    "main.e1ba5461.css.map": "/Web/static/css/main.e1ba5461.css.map",
-    "main.2c092101.js.map": "/Web/static/js/main.2c092101.js.map"
+    "main.57c9be3b.css.map": "/Web/static/css/main.57c9be3b.css.map",
+    "main.7be6ad35.js.map": "/Web/static/js/main.7be6ad35.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1ba5461.css",
-    "static/js/main.2c092101.js"
+    "static/css/main.57c9be3b.css",
+    "static/js/main.7be6ad35.js"
   ]
 }
