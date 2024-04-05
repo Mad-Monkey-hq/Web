@@ -11,11 +11,13 @@ module.exports = {
 
         'tablet': '640px',
         // => @media (min-width: 640px) { ... }
+
+        'mid': '1024px',
   
-        'laptop': '1024px',
+        'laptop': '1440px',
         // => @media (min-width: 1024px) { ... }
   
-        'desktop': '1440px',
+        'desktop': '2560px',
         // => @media (min-width: 1280px) { ... }
       },
     },
