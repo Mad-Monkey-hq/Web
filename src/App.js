@@ -23,6 +23,7 @@ function App() {
             <Route exact path="/Services" element={<Services />}></Route>
             <Route exact path="/Contact" element={<Contact />}></Route>
           </Routes>
+       
         </Router>
       </div>
     </>

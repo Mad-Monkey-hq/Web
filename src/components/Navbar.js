@@ -73,23 +73,24 @@ function Navbar() {
 
   return (
     <div>
-      <header className="sticky top-0 flex">
+      <header className="sticky top-0 flex laptop:mx-10 desktop:mx-20 tablet:mx-5 my-2">
         <img
           className="phone:w-1/3 phone:m-4 tablet:w-1/6 tablet:m-10"
           src={img1}
           alt="Logo"
         />
-        <nav className="phone:hidden tablet:flex tablet:text-lg desktop:text-4xl tablet:mt-6 absolute right-0 top-0 tablet:gap-5 gap-10 text-white gilroy-regular">
-          <Link to="/Web" className="transition ml-10  p-5 duration-0.3 hover:text-yellow-700">
+        <nav className="phone:hidden tablet:flex tablet:text-md tablet:gap-2 desktop:text-4xl tablet:mt-6 absolute right-0 top-0 laptop:gap-10 desktop:gap-10 text-white gilroy-regular">
+          
+          <Link to="/Web" className="transition tablet:ml-60 ml-10  p-5 duration-0.3 hover:underline hover:decoration-orange-500 hover:decoration-4 hover:underline-offset-3">
             Home
           </Link>
-          <Link to="/Services" className="transition p-5 duration-0.3 hover:text-yellow-700">
+          <Link to="/Services" className="transition p-5 duration-0.3 hover:underline hover:decoration-orange-500 hover:decoration-4 hover:underline-offset-3">
             Services
           </Link>
-          <Link to="/Vision" className="transition p-5 duration-0.3 hover:text-yellow-700">
+          <Link to="/Vision" className="transition p-5 duration-0.3 hover:underline hover:decoration-orange-500 hover:decoration-4 hover:underline-offset-3">
             Our Vision
           </Link>
-          <Link to="/Contact" className="transition p-5 duration-0.3 hover:text-yellow-700">
+          <Link to="/Contact" className="transition  p-5 duration-0.3 hover:underline hover:decoration-orange-500 hover:decoration-4 hover:underline-offset-3">
             Contact Us
           </Link>
           <Link to="#">
@@ -99,12 +100,12 @@ function Navbar() {
           </Link>
         </nav>
       
-        <div className="tablet:hidden">
+        <div className="tablet:hidden phone:grid">
           <button
             onClick={() => setShowNav(true)}
             className="tablet:hidden phone:absolute right-0 top-0 phone:w-1/6 phone:m-1 phone:opacity-80"
           >
-            <img src={navbaricon} alt="Navbar" />
+            <img className='w-[32px] mt-1' src={navbaricon} alt="Navbar" />
           </button>
           {showNav && <NavbarMenu />}
         </div>

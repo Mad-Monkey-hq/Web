@@ -9,10 +9,8 @@ module.exports = {
       screens: {
         'phone': '320px',
 
-        'tablet': '640px',
+        'tablet': '1024px',
         // => @media (min-width: 640px) { ... }
-
-        'mid': '1024px',
   
         'laptop': '1440px',
         // => @media (min-width: 1024px) { ... }
@@ -20,6 +18,19 @@ module.exports = {
         'desktop': '2560px',
         // => @media (min-width: 1280px) { ... }
       },
+      animation: {
+        'loop-scroll': 'loop-scroll 50s linear infinite',
+      },
+      keyframes: {
+        'loop-scroll': {
+          from: {
+            left: 'translateX(0)',
+          },
+          to: {
+            transform: 'translateX(-100%)',
+          },
+        }
+      }    
     },
   },
   plugins: [],
