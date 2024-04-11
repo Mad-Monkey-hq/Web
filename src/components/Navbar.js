@@ -75,7 +75,7 @@ function Navbar() {
     <div>
       <header className="sticky top-0 flex laptop:mx-10 desktop:mx-20 tablet:mx-5 my-2">
         <img
-          className="phone:w-1/3 phone:m-4 tablet:w-1/6 tablet:m-10"
+          className="phone:w-2/5 phone:m-5 tablet:w-1/6 tablet:m-10"
           src={img1}
           alt="Logo"
         />
@@ -103,7 +103,7 @@ function Navbar() {
         <div className="tablet:hidden phone:grid">
           <button
             onClick={() => setShowNav(true)}
-            className="tablet:hidden phone:absolute right-0 top-0 phone:w-1/6 phone:m-1 phone:opacity-80"
+            className="tablet:hidden phone:absolute right-0 top-0 phone:w-1/6 phone:my-2 phone:opacity-80"
           >
             <img className='w-[32px] mt-1' src={navbaricon} alt="Navbar" />
           </button>

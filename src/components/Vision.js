@@ -62,7 +62,7 @@ function Vision() {
   <div className='tablet:hidden phone:text-center desktop:hidden bg-white'>
 
     <div className='p-4'>
-      <img className='m-5 desktop:w-1/2 desktop:h-[500px]' src={img1}></img>
+      {/* <img className='m-5 desktop:w-1/2 desktop:h-[500px]' src={img1}></img> */}
       <div className='phone:m-5 desktop:text-5xl gilroy-semibold text-orange-500'>India’s Leading Product Marketing Agency</div>
     </div>
 

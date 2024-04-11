@@ -44,9 +44,9 @@ function Home() {
             <h2 className='phone:text-3xl desktop:text-8xl desktop:mx-20 desktop:p-10 laptop:text-6xl laptop:mx-20 tablet:text-5xl tablet:ml-10 tablet:text-left tablet:mt-10 mt-20 text-yellow-400 gilroy-semibold'>
               India’s Leading Product Marketing Agency
             </h2>
-            <h3 className='tablet:mt-10 tablet:text-xl tablet:ml-10 laptop:text-xl laptop:mx-20 phone:m-10 phone:mt-5 phone:text-md desktop:text-4xl desktop:mx-32 gilroy-regular text-white'>With Madmonkey by the side, Recognition goes bananas for your brand! </h3>
+            <h3 className='tablet:mt-10 tablet:text-xl tablet:ml-10 laptop:text-xl laptop:mx-20 phone:m-2 phone:text-lg desktop:text-4xl desktop:mx-32 gilroy-regular text-white'>With Madmonkey by the side, Recognition goes bananas for your brand! </h3>
 
-            <Link to="#"><button className="w-1/8 p-5 mt-20 tablet:mt-2 tablet:text-xl desktop:text-4xl desktop:mx-32 tablet:ml-10 laptop:mx-20 rounded-xl bg-gradient-to-br from-pink-500 via-zinc-450 to-cyan-800 hover:bg-blue-700 text-white font-bold">
+            <Link to="#"><button className="w-1/8 p-5 phone:mt-10 phone:w-1/2 desktop:mt-20 laptop:mt-10 tablet:my-10 tablet:w-1/3 tablet:mt-16 tablet:text-xl desktop:text-4xl desktop:mx-32 tablet:ml-10 laptop:mx-20 rounded-xl bg-gradient-to-br from-pink-500 via-zinc-450 to-cyan-800 hover:bg-blue-700 text-white font-bold">
               Get in Touch
             </button></Link>
 
@@ -65,20 +65,20 @@ function Home() {
 
 
       {/* about us */}
-      <div className='tablet:flex phone:grid phone:justify-items-center phone:m-10 mt-20'>
+      <div className='tablet:flex phone:grid phone:justify-items-center mt-20'>
         <img className='phone:hidden tablet:flex laptop:flex laptop:ml-10 laptop:mr-12 tablet:w-2/6 tablet:ml-5 tablet:mr-12 desktop:ml-20 desktop:mr-40 desktop:w-[700px]' src={monkey2}></img>
         <div className='tablet:w-1/2 tablet:h-[80px] laptop:m-16 tablet:m-5 desktop:mt-40'>
           <div className='tablet:flex tablet:mt-8 tablet:text-xl desktop:text-4xl phone:hidden gilroy-semibold text-yellow-400'>ABOUT US ---</div>
-          <div className='phone:text-center tablet:hidden phone:text-lg phone:mt-5 gilroy-semibold text-yellow-400'>- ABOUT US -</div>
-          <div className='text-white phone:text-center desktop:text-6xl desktop:mt-10 laptop:text-5xl phone:text-2xl phone:mt-5 tablet:text-left tablet:text-3xl gilroy-semibold'>Your Brand, Our Reach,a saga forged in heaven</div>
-          <div className='desktop:text-4xl desktop:text-justify tablet:text-lg tablet:mt-10 tablet:text-justify laptop:text-xl laptop:mt-10 phone:text-sm phone:text-justify phone:mt-5 text-white gilroy-medium'>
+          <div className='phone:text-center phone:m-5 tablet:hidden phone:text-lg phone:mt-5 gilroy-semibold text-yellow-400'>- ABOUT US -</div>
+          <div className='text-white phone:text-center phone:m-5 desktop:text-6xl desktop:mt-10 laptop:text-5xl phone:text-2xl phone:mt-5 tablet:text-left tablet:text-3xl gilroy-semibold'>Your Brand, Our Reach,a saga forged in heaven</div>
+          <div className='desktop:text-4xl desktop:text-justify tablet:text-lg tablet:mt-10 tablet:text-justify laptop:text-xl laptop:mt-10 phone:text-sm phone:text-justify phone:m-2 text-white gilroy-medium'>
             <p>Welcome to the jungle of Madmonkey. To put into layman’s terms, we are a group of service providers who “curate-with-care”, the most impactful solutions to your marketing needs.</p><br/>
             <p>In other words, we put the “fun” in the “fun-damentals” of your marketing needs,from transformation, development to execution.</p><br/>
             <p>Our motto is to customize solutions to suit your Brand needs that make an impact in the market!</p><br/>
             <p>Connect with us to leave your worry behind and go ballistic into the wide world of brands, and this is our Madmonkey promise.</p>
           </div>
         </div>
-        <img className='phone:mt-10 tablet:hidden laptop:hidden desktop:hidden' src={monkey2}></img>
+        <img className='phone:m-5 tablet:hidden laptop:hidden desktop:hidden' src={monkey2}></img>
       </div>
 
       {/* services */}
@@ -224,9 +224,9 @@ function Home() {
 
     {/* make mad monkey your growth partner */}
 
-    <div className="relative m-10">
+    <div className="relative laptop:m-10 tablet:m-10 desktop:m-10 phone:m-2">
         <img src={pinkbg} alt="Pink Background" className="w-full laptop:my-20 desktop:my-40 tablet:mb-16" />
-        <button className="flex absolute text-left tablet:ml-5 laptop:ml-10 laptop:text-2xl desktop:text-6xl desktop:ml-20 top-2/3 underline underline-offset-4 tablet:w-[200px] tablet:text-xl gilroy-semibold text-white px-4 py-2 rounded"> Contact Us <img className='w-10 h-8' src={arrowlogo}></img></button>
+        <button className="flex absolute phone:text-sm text-left tablet:ml-5 laptop:ml-10 laptop:text-2xl desktop:text-6xl desktop:ml-20 top-2/3 underline underline-offset-4 tablet:w-[200px] tablet:text-xl gilroy-semibold text-white phone:px-3 phone:py-0 px-4 py-2 rounded"> Contact Us <img className='w-10 h-8 phone:w-5 phone:h-5' src={arrowlogo}></img></button>
     </div>
 
     {/* footer */}
@@ -263,10 +263,10 @@ function Home() {
     </div>
 
     {/* phone footer */}
-    <div className='tablet:hidden phone:text-center desktop:hidden bg-white'>
+    <div className='tablet:hidden phone:text-center desktop:hidden phone:mt-12 bg-white'>
 
       <div className='p-4'>
-        <img className='m-5 desktop:w-1/2 desktop:h-[500px]' src={img1}></img>
+        {/* <img className='m-5 desktop:w-1/2 desktop:h-[500px]' src={img1}></img> */}
         <div className='phone:m-5 desktop:text-5xl gilroy-semibold text-orange-500'>India’s Leading Product Marketing Agency</div>
       </div>
 

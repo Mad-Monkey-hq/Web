@@ -14,7 +14,7 @@ function Services() {
         <div>
         <div className='tablet:flex-col desktop:flex-col phone:text-center w-screen bg-black'>
             <h1 className='tablet:text-left tablet:mx-20 phone:mt-12 tablet:mt-10 phone:m-18 text-white phone:text-4xl tablet:text-5xl desktop:ml-28 desktop:my-32 desktop:text-7xl font-semibold'>
-                Our offerings to boost your<br/> growth
+                Our offerings to boost your growth
             </h1>
             {/* orange lady */}
             <div className='phone:hidden tablet:flex phone:text-justify tablet:mt-20 tablet:ml-20 tablet:gap-10 desktop:gap-40'>
@@ -25,7 +25,7 @@ function Services() {
                 </div>
             </div>
             {/* ornage phone */}
-            <div className='tablet:hidden phone:text-center phone:text-justify'>
+            <div className='tablet:hidden phone:mx-5 phone:text-center phone:text-justify'>
                 <img src={lady1} className='phone:mt-16 w-full phone:h-2/3' alt="Orange Lady" />
                 <div className='phone:text-justify phone:rounded-xl phone:m-5 tablet:mt-20 tablet:w-full tablet:h-[450px] tablet:rounded-r-3xl text-white p-5 text-xl bg-orange-600'>
                     <h1 className='phone:text-xl phone:m-2 phone:text-center gilroy-bold'>Customer Review Management</h1>
@@ -42,7 +42,7 @@ function Services() {
                 <img src={lady2} className='tablet:w-1/3 desktop:w-1/3 laptop:1/2 mx-10' alt="Violet Lady" />
             </div>
             {/* violet phone */}
-            <div className='tablet:hidden phone:text-center phone:text-justify'>
+            <div className='tablet:hidden phone:mx-5 phone:text-center phone:text-justify'>
                 <img src={lady2} className='phone:mt-16 w-full phone:h-2/3' alt="Orange Lady" />
                 <div className='phone:text-justify phone:rounded-xl phone:m-5 tablet:mt-20 tablet:w-full tablet:h-[450px] tablet:rounded-r-3xl text-white p-5 text-xl bg-indigo-600'>
                     <h1 className='phone:text-xl phone:m-2 phone:text-center gilroy-bold'>Influencer Marketing</h1>
@@ -60,7 +60,8 @@ function Services() {
                 </div>
             </div>
 
-            <div className='tablet:hidden phone:text-center phone:text-justify'>
+            {/* crimson phone */}
+            <div className='tablet:hidden phone:mx-5 phone:text-center phone:text-justify'>
                 <img src={lady3} className='phone:mt-16 w-full phone:h-2/3' alt="Crimson Lady" />
                 <div className='phone:text-justify phone:rounded-xl phone:m-5 tablet:mt-20 tablet:w-full tablet:h-[450px] tablet:rounded-r-3xl text-white p-5 text-xl bg-red-500'>
                     <h1 className='phone:text-xl phone:m-2 phone:text-center gilroy-bold'>Branding</h1>
@@ -77,7 +78,8 @@ function Services() {
                 <img src={lady4} className='tablet:w-1/3 desktop:w-1/3 laptop:1/2 mx-10' alt="Green Lady" />
             </div>
 
-            <div className='tablet:hidden phone:text-center phone:text-justify'>
+            {/* green phone */}
+            <div className='tablet:hidden phone:mx-5 phone:text-center phone:text-justify'>
                 <img src={lady4} className='phone:mt-16 w-full phone:h-2/3' alt="Orange Lady" />
                 <div className='phone:text-justify phone:rounded-xl phone:m-5 tablet:mt-20 tablet:w-full tablet:h-[450px] tablet:rounded-r-3xl text-white p-5 text-xl bg-emerald-600'>
                     <h1 className='phone:text-xl phone:m-2 phone:text-center gilroy-bold'>Social Media Marketing</h1>
@@ -93,7 +95,7 @@ function Services() {
                 </div>
             </div>
 
-            <div className='tablet:hidden phone:text-center phone:text-justify'>
+            <div className='tablet:hidden phone:mx-5 phone:text-center phone:text-justify'>
                 <img src={lady5} className='phone:mt-16 w-full phone:h-2/3' alt="Orange Lady" />
                 <div className='phone:text-justify phone:rounded-xl phone:m-5 tablet:mt-20 tablet:w-full tablet:h-[450px] tablet:rounded-r-3xl text-white p-5 text-xl bg-blue-600'>
                     <h1 className='phone:text-xl phone:m-2 phone:text-center gilroy-bold'>Product Shoot</h1>
@@ -140,7 +142,7 @@ function Services() {
   <div className='tablet:hidden laptop;hidden phone:text-center desktop:hidden bg-white mt-10'>
 
     <div className='phone:py-10 text-2xl gilroy-semibold text-orange-500'>
-        <img className='mx-20 mb-5 justify-items-center' src={img1}></img>
+        {/* <img className='mx-20 mb-5 justify-items-center' src={img1}></img> */}
         <p>India’s Leading Product Marketing Agency</p>
     </div>
 
