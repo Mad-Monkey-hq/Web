@@ -109,7 +109,7 @@ function Services() {
     
     <div className='flex-col w-2/4 mx-12 desktop:ml-20 desktop:my-10 tablet:my-20 tablet:m-16'>
       <img className='ml-5 tablet:w-1/2 desktop:my-10' src={img1}></img>
-      <div className='phone:m-5 tablet:text-2xl tablet:text-3xl desktop:text-5xl gilroy-semibold text-red-500 tablet:mt-5'>India’s Leading Product Marketing Agency</div>
+      <div className='phone:m-5 tablet:text-xl laptop:text-3xl desktop:text-5xl gilroy-semibold text-red-500 tablet:mt-5'>India’s Leading Product Marketing Agency</div>
     </div>
 
     <div className='w-1/5 desktop:text-3xl my-10 desktop:mb-20 tablet:flex-col mt-20'>
