@@ -70,7 +70,7 @@ function App() {
 
           <div className='p-4'>
             {/* <img className='m-5 desktop:w-1/2 desktop:h-[500px]' src={img1}></img> */}
-            <div className='phone:m-5 desktop:text-5xl gilroy-semibold text-orange-500'>India’s Leading Product Marketing Agency</div>
+            <div className='phone:m-5 desktop:text-5xl gilroy-bold text-orange-500'>India’s Leading Product Marketing Agency</div>
           </div>
 
           <div className='phone:flex-col desktop:w-1/4'>
@@ -83,8 +83,8 @@ function App() {
 
           <div className='phone:text-center phone:mt-5'>
             <div className='gilroy-bold text-orange-500 text-xl'>Reach Us</div>
-            <div className='gilroy-medium mt-2'><a href="#">+91 9110660335</a></div>
-            <div className='gilroy-medium mt-2'><a href="#">connect@madmonkey.in</a></div>
+            <div className='gilroy-semibold mt-2'><a href="#">+91 9110660335</a></div>
+            <div className='gilroy-semibold mt-2'><a href="#">connect@madmonkey.in</a></div>
           </div>
 
 

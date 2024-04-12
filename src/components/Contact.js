@@ -98,7 +98,7 @@ function App() {
       </div>
     </div>
     <div className='phone:flex-col phone:justify-center phone:items-center tablet:hidden laptop:hidden desktop:hidden'>
-      <img className='h-2/3 w-3/4 ml-2' src={grp}></img>
+      <img className='w-3/4 h-[200px] ml-2' src={grp}></img>
       <div className='rounded-xl bg-white mx-2'>  
           <h1 className='gilroy-bold text-orange-500 text-4xl mt-2 p-2 text-center'>Contact Us</h1>
           <h3 className='text-center gilroy-medium text-gray-500 p-2 mt-5'>We will contact you within 24 hrs pinky monkey promise 🐵</h3>
