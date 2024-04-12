@@ -66,12 +66,12 @@ function Home() {
 
       {/* about us */}
       <div className='tablet:flex phone:grid phone:justify-items-center mt-20'>
-        <img className='phone:hidden tablet:flex laptop:flex laptop:ml-10 laptop:mr-12 tablet:w-2/6 tablet:ml-5 tablet:mr-12 desktop:ml-20 desktop:mr-40 desktop:w-[700px]' src={monkey2}></img>
+        <img className='phone:hidden tablet:flex laptop:flex laptop:mr-12 tablet:w-2/6 tablet:mx-12 tablet:mr-12 desktop:ml-20 desktop:mr-40 desktop:w-[700px]' src={monkey2}></img>
         <div className='tablet:w-1/2 tablet:h-[80px] laptop:m-16 tablet:m-5 desktop:mt-40'>
-          <div className='tablet:flex tablet:mt-8 tablet:text-xl desktop:text-4xl phone:hidden gilroy-semibold text-yellow-400'>ABOUT US ---</div>
+          <div className='tablet:flex tablet:mt-8 tablet:text-xl tablet:ml-5 desktop:text-4xl phone:hidden gilroy-semibold text-yellow-400'>ABOUT US ---</div>
           <div className='phone:text-center phone:m-5 tablet:hidden phone:text-lg phone:mt-5 gilroy-semibold text-yellow-400'>- ABOUT US -</div>
           <div className='text-white phone:text-center phone:m-5 desktop:text-6xl desktop:mt-10 laptop:text-5xl phone:text-2xl phone:mt-5 tablet:text-left tablet:text-3xl gilroy-semibold'>Your Brand, Our Reach,a saga forged in heaven</div>
-          <div className='desktop:text-4xl desktop:text-justify tablet:text-lg tablet:mt-10 tablet:text-justify laptop:text-xl laptop:mt-10 phone:text-sm phone:text-justify phone:m-2 text-white gilroy-medium'>
+          <div className='desktop:text-4xl desktop:text-justify tablet:text-lg tablet:mt-10 tablet:ml-5 tablet:text-justify laptop:text-xl laptop:mt-10 phone:text-sm phone:text-justify phone:m-2 text-white gilroy-medium'>
             <p>Welcome to the jungle of Madmonkey. To put into layman’s terms, we are a group of service providers who “curate-with-care”, the most impactful solutions to your marketing needs.</p><br/>
             <p>In other words, we put the “fun” in the “fun-damentals” of your marketing needs,from transformation, development to execution.</p><br/>
             <p>Our motto is to customize solutions to suit your Brand needs that make an impact in the market!</p><br/>
@@ -118,18 +118,18 @@ function Home() {
               <div className='text-white tablet:text-2xl phone:text-left desktop:text-4xl desktop:mr-20 desktop:mt-20 gilroy-bold laptop:mt-10 laptop:text-3xl'><div className='underline decoration-yellow-400 decoration-2'>01.</div><div>Research</div></div>
             </div>
             <div className='tablet:text-lg laptop:text-xl desktop:text-4xl desktop:mt-12 desktop:mr-20 phone:text-lg text-white gilroy-medium mt-5'><p className='text-justify'>To understand your marketing needs, we study your business and come up with a tailored solution</p></div>
-            <img className='phone:mt-5 desktop:h-[1200px] desktop:mt-20 desktop:mr-20 phone:w-full rounded-3xl' src={yimg}></img>
+            <img className='phone:mt-5 tablet:h-[500px] desktop:h-[1200px] desktop:mt-20 desktop:mr-20 phone:w-full rounded-3xl' src={yimg}></img>
           </div>
 
 
-          <div className='phone:text-justify laptop:w-1/3 desktop:w-1/3 tablet:flex-col m-10'>
-            <div className='phone:text-center phone:gap-2 text-white'>
-              <div className='text-white phone:hidden tablet:text-2xl desktop:text-4xl desktop:mr-20 desktop:mt-20'><p className='gilroy-regular underline decoration-yellow-400 decoration-2'>02.</p><br/><p className='gilroy-bold desktop:mt-10 laptop:mt-10 laptop:text-3xl'>Strategy</p></div>
-              <div className='text-white tablet:text-2xl phone:text-left desktop:text-4xl desktop:mr-20 desktop:mt-20 gilroy-bold laptop:mt-10 laptop:text-3xl'><div className='underline decoration-yellow-400 decoration-2'>02.</div><div>Strategy</div></div>
-            </div>
-            <div className='tablet:text-lg laptop:text-xl desktop:text-4xl desktop:mt-12 desktop:mr-20 phone:text-lg text-white gilroy-medium mt-5'><p className='text-justify'>The possible solutions are then churned with a cup of coffee into strategizing for the best possible outcome.</p></div>
-            <img className='phone:mt-5 desktop:h-[1200px] desktop:mt-20 desktop:mr-20 phone:w-full rounded-3xl' src={rimg}></img>
+        <div className='phone:text-justify laptop:w-1/3 desktop:w-1/3 tablet:flex-col m-10'>
+          <div className='phone:text-center phone:gap-2 text-white'>
+            <div className='text-white phone:hidden tablet:text-2xl desktop:text-4xl desktop:mr-20 desktop:mt-20'><p className='gilroy-regular underline decoration-yellow-400 decoration-2'>02</p><br /><p className='gilroy-bold desktop:mt-10 laptop:mt-10 laptop:text-3xl'>Strategy</p></div>
+            <div className='text-white tablet:text-2xl phone:text-left desktop:text-4xl desktop:mr-20 desktop:mt-20 gilroy-bold laptop:mt-10 laptop:text-3xl'><div className='underline decoration-yellow-400 decoration-2'>02.</div><div>Strategy</div></div>
           </div>
+          <div className='tablet:text-lg laptop:text-xl desktop:text-4xl desktop:mt-12 desktop:mr-20 phone:text-lg text-white gilroy-medium mt-5'><p className='text-justify'>The possible solutions are then churned with a cup of coffee into strategizing for the best possible outcome</p></div>
+          <img className='phone:mt-5 tablet:h-[500px] desktop:h-[1200px] desktop:mt-20 desktop:mr-20 phone:w-full rounded-3xl' src={rimg}></img>
+        </div>
 
 
 
@@ -139,7 +139,7 @@ function Home() {
             <div className='text-white tablet:text-2xl phone:text-left desktop:text-4xl desktop:mr-20 desktop:mt-20 gilroy-bold laptop:mt-10 laptop:text-3xl'><div className='underline decoration-yellow-400 decoration-2'>03.</div><div>Execution</div></div>
           </div>
           <div className='tablet:text-lg laptop:text-xl desktop:text-4xl desktop:mt-12 desktop:mr-20 phone:text-lg text-white gilroy-medium mt-5'><p className='text-justify'>Our highly skilled and determined team then put their heart and soul to execute these strategies.</p></div>
-          <img className='phone:mt-5 desktop:h-[1200px] desktop:mt-20 desktop:mr-20 phone:w-full rounded-3xl' src={bimg}></img>
+          <img className='phone:mt-5 tablet:h-[500px] desktop:h-[1200px] desktop:mt-20 desktop:mr-20 phone:w-full rounded-3xl' src={bimg}></img>
         </div>
         
       </div>
@@ -226,74 +226,7 @@ function Home() {
 
     <div className="relative laptop:m-10 tablet:m-10 desktop:m-10 phone:m-2">
         <img src={pinkbg} alt="Pink Background" className="w-full laptop:my-20 desktop:my-40 tablet:mb-16" />
-        <button className="flex absolute phone:text-sm text-left tablet:ml-5 laptop:ml-10 laptop:text-2xl desktop:text-6xl desktop:ml-20 top-2/3 underline underline-offset-4 tablet:w-[200px] tablet:text-xl gilroy-semibold text-white phone:px-3 phone:py-0 px-4 py-2 rounded"> Contact Us <img className='w-10 h-8 phone:w-5 phone:h-5' src={arrowlogo}></img></button>
-    </div>
-
-    {/* footer */}
-
-    <div className='tablet:flex laptop:flex desktop:flex phone:hidden bg-white w-screen tablet:gap-5'>
-    
-      <div className='flex-col w-2/4 mx-12 desktop:ml-20 desktop:my-10 tablet:my-20 laptop:m-16'>
-        <img className='ml-5 laptop:w-1/2 desktop:my-10' src={img1}></img>
-        <div className='phone:m-5 tablet:text-xl laptop:text-3xl desktop:text-5xl gilroy-semibold text-red-500 tablet:mt-5'>India’s Leading Product Marketing Agency</div>
-      </div>
-
-      <div className='w-1/5 desktop:text-3xl my-10 desktop:mb-20 tablet:flex-col mt-20'>
-        <div className='gilroy-bold text-red-500 tablet:text-xl desktop:text-5xl laptop:text-2xl'>Navigation</div>
-        <div className='gilroy-medium mt-5 desktop:text-2xl laptop:text-lg tablet:text-md'><a href="#">Home</a></div>
-        <div className='gilroy-medium mt-5 desktop:text-2xl laptop:text-lg tablet:text-md'><a href="#">About Us</a></div>
-        <div className='gilroy-medium mt-5 desktop:text-2xl laptop:text-lg tablet:text-md'><a href="#">Case Studies</a></div>
-        <div className='gilroy-medium mt-5 desktop:text-2xl laptop:text-lg tablet:text-md'><a href="#">Contact Us</a></div>
-      </div>
-
-      <div className='w-1/5 desktop:text-5xl desktop:my-20 tablet:flex-col mt-20'>
-        <div className='gilroy-bold text-red-500 desktop:text-5xl laptop:text-2xl'>Reach Us</div>
-        <div className='gilroy-medium desktop:text-2xl mt-5'><a href="#">+91 9110660335</a></div>
-        <div className='gilroy-medium desktop:text-2xl mt-5'><a href="#">connect@madmonkey.in</a></div>
-      </div>
-
-      <div className='w-1/5 my-10 desktop:mb-20 tablet:flex-col tablet:mr-10 mt-20'>
-        <div className='gilroy-bold text-red-500 desktop:text-5xl laptop:text-2xl'>Connect with us</div>
-        <div className='flex gap-5 mt-5'>
-          <a href="https://www.linkedin.com/company/madmonkeyhq/about/"><img className='desktop:w-[60px]' src={linkedin}></img></a>
-          <a href="#"><img className='desktop:w-[60px]' src={instagram}></img></a>
-          <a href="#"><img className='desktop:w-[60px]' src={facebook}></img></a>
-        </div>
-      </div>
-    </div>
-
-    {/* phone footer */}
-    <div className='tablet:hidden phone:text-center desktop:hidden phone:mt-12 bg-white'>
-
-      <div className='p-4'>
-        {/* <img className='m-5 desktop:w-1/2 desktop:h-[500px]' src={img1}></img> */}
-        <div className='phone:m-5 desktop:text-5xl gilroy-semibold text-orange-500'>India’s Leading Product Marketing Agency</div>
-      </div>
-
-      <div className='phone:flex-col desktop:w-1/4'>
-        <div className='flex justify-center items-center gap-5'>
-          <a href="https://www.linkedin.com/company/madmonkeyhq/about/"><img src={linkedin}></img></a>
-          <a href="#"><img src={instagram}></img></a>
-          <a href="#"><img src={facebook}></img></a>
-        </div>
-      </div>
-
-      <div className='phone:text-center phone:mt-5'>
-        <div className='gilroy-bold text-orange-500 text-xl'>Reach Us</div>
-        <div className='gilroy-medium mt-2'><a href="#">+91 9110660335</a></div>
-        <div className='gilroy-medium mt-2'><a href="#">connect@madmonkey.in</a></div>
-      </div>
-
-
-      <div className='phone:text-center phone:mt-10'>
-        <div className='gilroy-semibold text-orange-500 text-xl'>Navigation</div>
-        <div className='gilroy-semibold mt-2'><a href="#">Home</a></div>
-        <div className='gilroy-semibold mt-2'><a href="#">About Us</a></div>
-        <div className='gilroy-semibold mt-2'><a href="#">Case Studies</a></div>
-        <div className='gilroy-semibold mt-2'><a href="#">Contact Us</a></div>
-      </div>
-
-      <div className='mt-10 gilroy-semibold bg-orange-500 text-center text-white h-10'>Designed & built with passion in India 🚀</div>
+        <button className="flex absolute phone:text-sm text-left tablet:ml-8 laptop:ml-10 laptop:text-2xl desktop:text-6xl desktop:ml-20 top-2/3 underline underline-offset-4 tablet:w-[200px] tablet:text-xl gilroy-semibold text-white phone:px-3 phone:py-0 px-4 py-2 rounded"> Contact Us <img className='w-10 h-8 phone:w-5 phone:h-5' src={arrowlogo}></img></button>
     </div>
       
     </div>
