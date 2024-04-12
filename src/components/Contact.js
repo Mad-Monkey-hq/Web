@@ -106,14 +106,14 @@ function App() {
               <h4 className='gilroy-medium mt-2'>Name*</h4>
               <input className='phone:grid phone:place-items-center rounded-xl w-5/6 h-12 m-2 bg-orange-200' type="text" name="name" />
 
-              <h4 className='ml-5 gilroy-medium '>Email*</h4>
+              <h4 className='gilroy-medium '>Email*</h4>
               <input className='phone:grid phone:place-items-center rounded-xl w-5/6 h-12 m-2 bg-orange-200' type="email" name="email" />
 
-              <h4 className='ml-5 gilroy-medium '>Number*</h4>
+              <h4 className='gilroy-medium '>Number*</h4>
               <input className='phone:grid phone:place-items-center rounded-xl w-5/6 h-12 m-2 bg-orange-200' name="number" />
               
     
-              <h4 className='ml-5 gilroy-medium '>Message*</h4>
+              <h4 className='gilroy-medium '>Message*</h4>
               <textarea className='phone:grid phone:place-items-center rounded-xl w-5/6 h-40 m-2 bg-orange-200' type="message" name="message"></textarea>
           
               <button type="submit" className="ml-2 my-5 w-5/6 bg-orange-500 text-black gilroy-semibold rounded-lg transition ease-in-out delay-100 hover:scale-110 duration-300 rounded-lg p-2">
