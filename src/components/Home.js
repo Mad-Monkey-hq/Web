@@ -71,27 +71,27 @@ function Home() {
           <div className='tablet:flex tablet:mt-8 tablet:text-xl tablet:ml-5 desktop:text-4xl phone:hidden gilroy-semibold text-yellow-400'>ABOUT US ---</div>
           <div className='phone:text-center phone:m-5 tablet:hidden phone:text-lg phone:mt-5 gilroy-semibold text-yellow-400'>- ABOUT US -</div>
           <div className='text-white phone:text-center phone:m-5 desktop:text-6xl desktop:mt-10 laptop:text-5xl phone:text-2xl phone:mt-5 tablet:text-left tablet:text-3xl gilroy-semibold'>Your Brand, Our Reach,a saga forged in heaven</div>
-          <div className='desktop:text-4xl desktop:text-justify tablet:text-lg tablet:mt-10 tablet:ml-5 tablet:text-justify laptop:text-xl laptop:mt-10 phone:text-sm phone:text-justify phone:m-2 text-white gilroy-medium'>
+          <div className='desktop:text-4xl desktop:text-justify tablet:text-lg tablet:mt-10 tablet:ml-5 tablet:text-justify laptop:text-xl laptop:mt-10 phone:text-sm phone:text-justify phone:m-5 text-white gilroy-medium'>
             <p>Welcome to the jungle of Madmonkey. To put into layman’s terms, we are a group of service providers who “curate-with-care”, the most impactful solutions to your marketing needs.</p><br/>
             <p>In other words, we put the “fun” in the “fun-damentals” of your marketing needs,from transformation, development to execution.</p><br/>
             <p>Our motto is to customize solutions to suit your Brand needs that make an impact in the market!</p><br/>
             <p>Connect with us to leave your worry behind and go ballistic into the wide world of brands, and this is our Madmonkey promise.</p>
           </div>
         </div>
-        <img className='phone:m-5 tablet:hidden laptop:hidden desktop:hidden' src={monkey2}></img>
+        <img className='phone:m-10 phone:h-3/4 tablet:hidden laptop:hidden desktop:hidden' src={monkey2}></img>
       </div>
 
       {/* services */}
       <div className='tablet:flex-col tablet:m-5 desktop:m-10'>
         <div className='tablet:flex tablet:mt-20 tablet:ml-10 tablet:text-xl laptop:mt-40 laptop:ml-20 desktop:text-4xl desktop:mt-80 desktop:ml-20 desktop:mr-20 phone:hidden gilroy-semibold text-yellow-400'>SERVICES ---</div>
-        <div className='phone:text-center tablet:hidden phone:text-lg phone:mt-20 gilroy-semibold text-yellow-400'>- SERVICES -</div>
+        <div className='phone:text-center tablet:hidden phone:text-lg phone:mt-5 gilroy-semibold text-yellow-400'>- SERVICES -</div>
         <div className='text-white phone:text-center desktop:text-6xl desktop:mt-10 desktop:ml-20 desktop:mr-20 laptop:text-5xl laptop:mx-20 phone:text-2xl phone:mt-5 phone:text-justify-center tablet:text-left tablet:ml-10 tablet:text-3xl gilroy-semibold'><p>Our offerings which will<br/> make you grow</p></div>
         <div className='tablet:flex desktop:mt-20 desktop:ml-10 desktop:mr-10 laptop:mt-10 laptop:mx-10 gap-10 mt-5'>
 
-        <div className='laptop:rounded-[40px] desktop:rounded-[40px] tablet:rounded-[40px] bg-gradient-to-r from-amber-500 via-red-400 to-pink-500 tablet:h-1/6 tablet:mx-10 tablet:w-1/2 phone:text-sm phone:rounded-xl phone:m-5 phone:p-2'>
+        <div className='laptop:rounded-[40px] desktop:rounded-[40px] tablet:rounded-[40px] bg-gradient-to-r from-amber-500 via-red-400 to-pink-500 tablet:h-1/6 tablet:mx-10 tablet:w-1/2 phone:rounded-xl phone:m-5 phone:p-2'>
             <img className="desktop:w-1/3 desktop:m-24 laptop:m-12 phone:m-6 mt-10 ml-10" src={card1}></img>
-            <div className='text-white mt-10 gilroy-semibold tablet:px-5 tablet:text-2xl tablet:my-10 desktop:text-6xl desktop:px-20 phone:text-xl phone:m-4'>Customer Review Management</div>
-            <div className='text-white tablet:text-lg desktop:text-4xl desktop:px-14 desktop:pb-20 desktop:mt-8 gilroy-semibold tablet:m-10 phone:m-4 gilroy-medium'><p className='text-justify'>Ever wonder if your brand can start a trend? Well, with our bandwidth of macro and micro influencers, you sure can fructify your brand into a trend! The influencer marketing factory is a well oiled machine in this digital era. Thus, we curate brand trends with our verified social media influencers to invent, curate and deliver trends with a promise to turn your products and services into the hype of tomorrow.</p></div>
+            <div className='text-white mt-10 gilroy-semibold tablet:px-5 tablet:text-2xl tablet:my-10 desktop:text-6xl desktop:px-20 phone:text-lg phone:m-4'>Customer Review Management</div>
+            <div className='text-white tablet:text-lg desktop:text-4xl desktop:px-14 desktop:pb-20 desktop:mt-8 gilroy-semibold tablet:m-10 phone:m-4 phone:text-md gilroy-medium'><p className='text-justify'>Ever wonder if your brand can start a trend? Well, with our bandwidth of macro and micro influencers, you sure can fructify your brand into a trend! The influencer marketing factory is a well oiled machine in this digital era. Thus, we curate brand trends with our verified social media influencers to invent, curate and deliver trends with a promise to turn your products and services into the hype of tomorrow.</p></div>
           </div>
 
           <div className='laptop:rounded-[40px] desktop:rounded-[40px] tablet:rounded-[40px] bg-gradient-to-r from-amber-500 via-red-400 to-pink-500 tablet:h-1/6 tablet:w-1/2 phone:text-sm phone:rounded-xl phone:m-5 phone:p-2'>
@@ -139,7 +139,7 @@ function Home() {
             <div className='text-white tablet:text-2xl phone:text-left desktop:text-4xl desktop:mr-20 desktop:mt-20 gilroy-bold laptop:mt-10 laptop:text-3xl'><div className='underline decoration-yellow-400 decoration-2'>03.</div><div>Execution</div></div>
           </div>
           <div className='tablet:text-lg laptop:text-xl desktop:text-4xl desktop:mt-12 desktop:mr-20 phone:text-lg text-white gilroy-medium mt-5'><p className='text-justify'>Our highly skilled and determined team then put their heart and soul to execute these strategies.</p></div>
-          <img className='phone:mt-5 tablet:h-[500px] desktop:h-[1200px] desktop:mt-20 desktop:mr-20 phone:w-full rounded-3xl' src={bimg}></img>
+          <img className='phone:mt-5 tablet:h-[500px] desktop:h-[1200px] desktop:mt-20 desktop:mr-20 rounded-3xl' src={bimg}></img>
         </div>
         
       </div>
@@ -178,7 +178,7 @@ function Home() {
     </div>
     </div>
 
-    <div className='tablet:hidden laptop:hidden desktop:hidden phone:flex-col phone:mx-10'>
+    <div className='tablet:hidden laptop:hidden desktop:hidden phone:flex phone:flex-col phone:justify-center phone:items-center phone:mx-10'>
         <div className='gilroy-semibold mt-10 text-white text-2xl'>Want campaigns on your own platform ?</div>
         <div><img className='my-10' src={sample}></img></div>
         <div className='gilroy-medium text-white'><p className='text-justify'>The brand is all about how your customers think about you. With our extensive experience in E-commerce marketing, grow your brand name from scratch. Kick-start your platform, Ignite the fire, sit back and watch Madmonkey spread your light in the "Lanka" of budding entrepreneurship.</p></div>

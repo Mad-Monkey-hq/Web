@@ -97,26 +97,26 @@ function App() {
         )}
       </div>
     </div>
-    <div className='phone:flex-col tablet:hidden laptop:hidden desktop:hidden'>
-      <img className='h-2/3 w-5/6 mt-10 ml-5' src={grp}></img>
-      <div className='rounded-xl bg-white m-5'>  
-          <h1 className='gilroy-bold text-orange-500 text-4xl mt-5 text-center'>Contact Us</h1>
+    <div className='phone:flex-col phone:justify-center phone:items-center tablet:hidden laptop:hidden desktop:hidden'>
+      <img className='h-2/3 w-3/4 ml-2' src={grp}></img>
+      <div className='rounded-xl bg-white mx-2'>  
+          <h1 className='gilroy-bold text-orange-500 text-4xl mt-2 p-2 text-center'>Contact Us</h1>
           <h3 className='text-center gilroy-medium text-gray-500 p-2 mt-5'>We will contact you within 24 hrs pinky monkey promise 🐵</h3>
-          <form className='mt-10 phone:flex-col' onSubmit={onSubmit}>
-              <h4 className='ml-5 gilroy-medium text-left'>Name*</h4>
+          <form className='flex flex-col justify-center items-center' onSubmit={onSubmit}>
+              <h4 className='gilroy-medium mt-2'>Name*</h4>
               <input className='phone:grid phone:place-items-center rounded-xl w-5/6 h-12 m-2 bg-orange-200' type="text" name="name" />
 
-              <h4 className='ml-5 gilroy-medium text-left'>Email*</h4>
+              <h4 className='ml-5 gilroy-medium '>Email*</h4>
               <input className='phone:grid phone:place-items-center rounded-xl w-5/6 h-12 m-2 bg-orange-200' type="email" name="email" />
 
-              <h4 className='ml-5 gilroy-medium text-left'>Number*</h4>
+              <h4 className='ml-5 gilroy-medium '>Number*</h4>
               <input className='phone:grid phone:place-items-center rounded-xl w-5/6 h-12 m-2 bg-orange-200' name="number" />
               
     
-              <h4 className='ml-5 gilroy-medium text-left'>Message*</h4>
+              <h4 className='ml-5 gilroy-medium '>Message*</h4>
               <textarea className='phone:grid phone:place-items-center rounded-xl w-5/6 h-40 m-2 bg-orange-200' type="message" name="message"></textarea>
           
-              <button type="submit" className="ml-2 w-5/6 bg-orange-500 text-black gilroy-semibold rounded-lg transition ease-in-out delay-100 hover:scale-110 duration-300 rounded-lg p-2">
+              <button type="submit" className="ml-2 my-5 w-5/6 bg-orange-500 text-black gilroy-semibold rounded-lg transition ease-in-out delay-100 hover:scale-110 duration-300 rounded-lg p-2">
                 Send Message
               </button>
           
