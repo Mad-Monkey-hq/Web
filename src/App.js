@@ -66,11 +66,11 @@ function App() {
 
 
         {/* phone footer */}
-        <div className='tablet:hidden phone:text-center desktop:hidden phone:mt-12 bg-white'>
+        <div className='tablet:hidden phone:text-center desktop:hidden laptop:hidden phone:mt-12 bg-white'>
 
           <div className='p-4'>
             {/* <img className='m-5 desktop:w-1/2 desktop:h-[500px]' src={img1}></img> */}
-            <div className='phone:m-5 desktop:text-5xl gilroy-bold text-orange-500'>India’s Leading Product Marketing Agency</div>
+            <div className='phone:m-5 text-3xl gilroy-bold text-orange-500'>India’s Leading Product Marketing Agency</div>
           </div>
 
           <div className='phone:flex-col desktop:w-1/4'>
@@ -95,6 +95,8 @@ function App() {
             <div className='gilroy-semibold mt-2'><a href="#">Case Studies</a></div>
             <div className='gilroy-semibold mt-2'><a href="#">Contact Us</a></div>
           </div>
+          <div className='laptop:hidden tablet:hidden desktop:hidden laptop:text-2xl tablet:text-2xl desktop:text-3xl text-white text-center bg-orange-500 p-2 w-screen gilroy-semibold'>Designed & built with passion in India 🚀</div>
+
         </div>
       </div>
     </>

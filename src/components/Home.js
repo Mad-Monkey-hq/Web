@@ -121,12 +121,12 @@ function Home() {
             <img className='phone:mt-5 tablet:h-2/3 tablet:mt-10 desktop:h-[1200px] desktop:mt-20 desktop:mr-20 phone:w-full rounded-3xl' src={yimg}></img>
           </div>
 
-          <div className='phone:text-justify laptop:w-1/3 desktop:w-1/3 tablet:flex-col my-10 mx-2'>
+          <div className='phone:text-justify laptop:w-1/3 desktop:w-1/3 tablet:flex-col m-10'>
             <div className='phone:text-center phone:gap-2 text-white'>
               <div className='text-white phone:hidden tablet:text-2xl desktop:text-4xl desktop:mr-20 desktop:mt-20'><p className='gilroy-regular underline decoration-yellow-400 decoration-2'>02.</p><br/><p className='gilroy-bold desktop:mt-10 laptop:mt-10 laptop:text-3xl'>Strategy</p></div>
               <div className='text-white tablet:text-2xl phone:text-left desktop:text-4xl desktop:mr-20 desktop:mt-20 gilroy-bold laptop:mt-10 laptop:text-3xl'><div className='underline decoration-yellow-400 decoration-2'>02.</div><div>Strategy</div></div>
             </div>
-            <div className='tablet:text-lg laptop:text-xl desktop:text-4xl desktop:mt-12 desktop:mr-20 phone:text-lg text-white gilroy-medium mt-5'><p className='text-justify'>The possible solutions are then churned with a cup of coffee into strategizing for the best possible outcome</p></div>
+            <div className='tablet:text-lg laptop:text-xl desktop:text-4xl desktop:mt-12 desktop:mr-20 phone:text-lg text-white gilroy-medium mt-5'><p className='text-justify'>The possible solutions are then churned with a cup of coffee into strategizing for the best possible outcome.</p></div>
             <img className='phone:mt-5 tablet:h-2/3 tablet:mt-10 desktop:h-[1200px] desktop:mt-20 desktop:mr-20 phone:w-full rounded-3xl' src={rimg}></img>
           </div>
 
@@ -147,7 +147,7 @@ function Home() {
     <div className='text-center bg-white w-screen laptop:h-96 desktop:h-[600px] tablet:mt-10 tablet:p-20 phone:mt-5 phone:p-10 gilroy-semibold'>
       <div className='phone:text-md desktop:text-3xl laptop:text-xl'>WHAT DO YOU NEED TO GET YOUR BUSINESS MOVING?</div>
       <div className='mt-5 tablet:text-4xl laptop:text-5xl phone:text-2xl desktop:text-8xl desktop:mt-10'>Join the Mad Monkey bandwagon and solidify your brand in this concrete jungle now!</div>
-      <button class="transition ease-in-out delay-150 bg-black hover:-translate-y-1 hover:scale-110 hover:bg-yellow-500 duration-300 mt-10 desktop:text-4xl desktop:mt-20 desktop:p-5 desktop:rounded-[20px] bg-black text-white rounded-lg p-2">speak to us</button>
+      <button class="transition ease-in-out delay-150 bg-black mt-10 desktop:text-4xl desktop:mt-20 desktop:p-5 desktop:rounded-[20px] phone:w-[150px] bg-black text-white rounded-lg p-2">speak to us</button>
     </div>
 
     {/* result driven solutions*/}
@@ -223,8 +223,8 @@ function Home() {
 
     {/* make mad monkey your growth partner */}
 
-    <div className="relative laptop:m-10 tablet:m-10 desktop:m-10 phone:m-2">
-        <img src={pinkbg} alt="Pink Background" className="w-full laptop:my-20 desktop:my-40 tablet:mb-16" />
+    <div className="relative laptop:m-10 tablet:m-10 desktop:m-10 phone:m-3">
+        <img src={pinkbg} alt="Pink Background" className="w-full laptop:my-20 desktop:my-40 phone:my-5 tablet:mb-16"/>
         <button className="flex absolute phone:text-sm text-left tablet:ml-8 laptop:ml-10 laptop:text-2xl desktop:text-6xl desktop:ml-20 top-2/3 underline underline-offset-4 tablet:w-[200px] tablet:text-xl gilroy-semibold text-white phone:px-3 phone:py-0 px-4 py-2 rounded"> Contact Us <img className='w-10 h-8 phone:w-5 phone:h-5' src={arrowlogo}></img></button>
     </div>
       
