@@ -122,25 +122,25 @@ function Home() {
           </div>
 
 
-        <div className='phone:text-justify laptop:w-1/3 desktop:w-1/3 tablet:flex-col m-10'>
-          <div className='phone:text-center phone:gap-2 text-white'>
-            <div className='text-white phone:hidden tablet:text-2xl desktop:text-4xl desktop:mr-20 desktop:mt-20'><p className='gilroy-regular underline decoration-yellow-400 decoration-2'>02</p><br /><p className='gilroy-bold desktop:mt-10 laptop:mt-10 laptop:text-3xl'>Strategy</p></div>
-            <div className='text-white tablet:text-2xl phone:text-left desktop:text-4xl desktop:mr-20 desktop:mt-20 gilroy-bold laptop:mt-10 laptop:text-3xl'><div className='underline decoration-yellow-400 decoration-2'>02.</div><div>Strategy</div></div>
+          <div className='phone:text-justify laptop:w-1/3 desktop:w-1/3 tablet:flex-col m-10'>
+            <div className='phone:text-center phone:gap-2 text-white'>
+              <div className='text-white phone:hidden tablet:text-2xl desktop:text-4xl desktop:mr-20 desktop:mt-20'><p className='gilroy-regular underline decoration-yellow-400 decoration-2'>02</p><br/><p className='gilroy-bold desktop:mt-10 laptop:mt-10 laptop:text-3xl'>Strategy</p></div>
+              <div className='text-white tablet:text-2xl phone:text-left desktop:text-4xl desktop:mr-20 desktop:mt-20 gilroy-bold laptop:mt-10 laptop:text-3xl'><div className='underline decoration-yellow-400 decoration-2'>02.</div><div>Strategy</div></div>
+            </div>
+            <div className='tablet:text-lg laptop:text-xl desktop:text-4xl desktop:mt-12 desktop:mr-20 phone:text-lg text-white gilroy-medium mt-5'><p className='text-justify'>The possible solutions are then churned with a cup of coffee into strategizing for the best possible outcome</p></div>
+            <img className='phone:mt-5 tablet:h-[500px] desktop:h-[1200px] desktop:mt-20 desktop:mr-20 phone:w-full rounded-3xl' src={rimg}></img>
           </div>
-          <div className='tablet:text-lg laptop:text-xl desktop:text-4xl desktop:mt-12 desktop:mr-20 phone:text-lg text-white gilroy-medium mt-5'><p className='text-justify'>The possible solutions are then churned with a cup of coffee into strategizing for the best possible outcome</p></div>
-          <img className='phone:mt-5 tablet:h-[500px] desktop:h-[1200px] desktop:mt-20 desktop:mr-20 phone:w-full rounded-3xl' src={rimg}></img>
-        </div>
 
 
 
-        <div className='phone:text-justify laptop:w-1/3 desktop:w-1/3 tablet:flex-col m-10'>
-          <div className='phone:text-center phone:gap-2 text-white'>
-            <div className='text-white phone:hidden tablet:text-2xl desktop:text-4xl desktop:mr-20 desktop:mt-20'><p className='gilroy-regular underline decoration-yellow-400 decoration-2'>02</p><br/><p className='gilroy-bold desktop:mt-10 laptop:mt-10 laptop:text-3xl'>Strategy</p></div>
-            <div className='text-white tablet:text-2xl phone:text-left desktop:text-4xl desktop:mr-20 desktop:mt-20 gilroy-bold laptop:mt-10 laptop:text-3xl'><div className='underline decoration-yellow-400 decoration-2'>03.</div><div>Execution</div></div>
+          <div className='phone:text-justify laptop:w-1/3 desktop:w-1/3 tablet:flex-col m-10'>
+            <div className='phone:text-center phone:gap-2 text-white'>
+              <div className='text-white phone:hidden tablet:text-2xl desktop:text-4xl desktop:mr-20 desktop:mt-20'><p className='gilroy-regular underline decoration-yellow-400 decoration-2'>03</p><br/><p className='gilroy-bold desktop:mt-10 laptop:mt-10 laptop:text-3xl'>Execution</p></div>
+              <div className='text-white tablet:text-2xl phone:text-left desktop:text-4xl desktop:mr-20 desktop:mt-20 gilroy-bold laptop:mt-10 laptop:text-3xl'><div className='underline decoration-yellow-400 decoration-2'>03.</div><div>Execution</div></div>
+            </div>
+            <div className='tablet:text-lg laptop:text-xl desktop:text-4xl desktop:mt-12 desktop:mr-20 phone:text-lg text-white gilroy-medium mt-5'><p className='text-justify'>Our highly skilled and determined team then put their heart and soul to execute these strategies.</p></div>
+            <img className='phone:mt-5 tablet:h-[500px] desktop:h-[1200px] desktop:mt-20 desktop:mr-20 phone:w-full rounded-3xl' src={bimg}></img>
           </div>
-          <div className='tablet:text-lg laptop:text-xl desktop:text-4xl desktop:mt-12 desktop:mr-20 phone:text-lg text-white gilroy-medium mt-5'><p className='text-justify'>Our highly skilled and determined team then put their heart and soul to execute these strategies.</p></div>
-          <img className='phone:mt-5 tablet:h-[500px] desktop:h-[1200px] desktop:mt-20 desktop:mr-20 rounded-3xl' src={bimg}></img>
-        </div>
         
       </div>
 
