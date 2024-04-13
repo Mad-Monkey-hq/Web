@@ -66,24 +66,24 @@ function App() {
         <h3 className='laptop:text-3xl desktop:p-5 desktop:text-4xl text-center text-gray-500 p-2'>We will contact you within 24 hrs pinky monkey promise 🐵</h3>
         <form className='desktop:h-3/4 desktop:text-3xl tablet:mt-5 tablet:grid tablet:place-items-center' onSubmit={onSubmit}>
           <div>
-            <h4 className='tablet:ml-5 tablet:mr-5 gilroy-medium'>Name*</h4>
-            <input className='laptop:w-100 rounded-xl tablet:mx-5 mt-2 h-12 w-96 bg-orange-200' type="text" name="name" />
+            <h4 className='tablet:ml-5 tablet:mr-5 gilroy-medium my-2'>Name*</h4>
+            <input className='laptop:w-100 rounded-xl tablet:mx-5 h-12 w-96 bg-orange-200' type="text" name="name" />
           </div>
           <div>
-            <h4 className='tablet:mx-5 gilroy-medium'>Email*</h4>
-            <input className='rounded-xl tablet:mx-5 mt-2 h-12 w-96 bg-orange-200' type="email" name="email" />
+            <h4 className='tablet:mx-5 gilroy-medium my-2'>Email*</h4>
+            <input className='rounded-xl tablet:mx-5 h-12 w-96 bg-orange-200' type="email" name="email" />
           </div>
           <div>
-            <h4 className='tablet:mx-5 gilroy-medium'>Number*</h4>
-            <input className='rounded-xl tablet:mx-5 mt-2 h-12 w-96 bg-orange-200' name="number" />
+            <h4 className='tablet:mx-5 gilroy-medium my-2'>Number*</h4>
+            <input className='rounded-xl tablet:mx-5 h-12 w-96 bg-orange-200' name="number" />
           </div>
           <div>
-            <h4 className='tablet:mx-5 gilroy-medium'>Message*</h4>
-            <div><textarea className='rounded-xl tablet:mx-5 mt-2 h-24 w-96 bg-orange-200' type="message" name="message"></textarea></div>
+            <h4 className='tablet:mx-5 gilroy-medium my-2'>Message*</h4>
+            <div><textarea className='rounded-xl tablet:mx-5 h-24 w-96 bg-orange-200' type="message" name="message"></textarea></div>
           </div>
           
           <div>
-            <button type="submit" className="ml-5 mt-2 bg-orange-500 text-black gilroy-semibold rounded-lg transition ease-in-out delay-100 hover:scale-110  duration-300 rounded-lg p-2">
+            <button type="submit" className="ml-5 my-2 bg-orange-500 text-black gilroy-semibold rounded-lg transition ease-in-out delay-100 hover:scale-110  duration-300 rounded-lg p-2">
               Send Message
             </button>
           </div>
