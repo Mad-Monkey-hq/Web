@@ -3,6 +3,8 @@ import {
   Link,
 } from "react-router-dom";
 import monkey2 from "../images/home-white-monkey.svg"
+import monkey3 from "../images/white-monkey.jpg"
+
 import card1 from "../images/card-img1.svg"
 import card2 from "../images/card-img2.svg"
 import astro from "../images/astronaut.svg"
@@ -24,10 +26,6 @@ import lefta from "../images/arrow-left.svg"
 import righta from "../images/arrow-right.svg"
 import yagami from "../images/yagami.svg"
 import arrowlogo from "../images/arrowlogo.svg"
-import img1 from "../images/Mad Monkey-logo.svg"
-import linkedin from "../images/linkedin.svg"
-import instagram from "../images/instagram.svg"
-import facebook from "../images/facebook.svg"
 import mobclient from "../images/mobile-clients.svg"
 import Carousel from './Carousel'
 import pinkbg from '../images/pinkbg.svg'
@@ -41,22 +39,18 @@ function Home() {
       {/* astro-monkey page */}
       <div className='tablet:flex phone:center'>
         <div className='flex-col phone:text-center desktop:mt-5 tablet:text-left tablet:w-3/5 tablet:ml-5 desktop:text-4xl'>
-          <h2 className='phone:text-3xl desktop:text-8xl desktop:mx-20 desktop:p-10 laptop:text-6xl laptop:mx-20 tablet:text-5xl tablet:ml-10 tablet:text-left tablet:mt-10 mt-20 text-yellow-400 gilroy-semibold'>
+          <h2 className='phone:text-3xl desktop:text-8xl desktop:mx-20 desktop:p-10 laptop:text-6xl laptop:mx-20 tablet:text-5xl tablet:ml-10 tablet:text-left tablet:mt-10 mt-10 text-yellow-400 gilroy-semibold'>
             India’s Leading Product Marketing Agency
           </h2>
           <h3 className='tablet:mt-10 tablet:text-xl tablet:ml-10 laptop:text-xl laptop:mx-20 phone:m-2 phone:text-lg desktop:text-4xl desktop:mx-32 gilroy-regular text-white'>With Madmonkey by the side, Recognition goes bananas for your brand! </h3>
 
-          <Link to="#"><button className="w-1/8 p-5 phone:mt-10 phone:w-1/2 desktop:mt-20 laptop:mt-10 tablet:my-10 tablet:w-1/3 tablet:mt-16 tablet:text-xl desktop:text-4xl desktop:mx-32 tablet:ml-10 laptop:mx-20 rounded-xl bg-gradient-to-br from-pink-500 via-zinc-450 to-cyan-800 hover:bg-blue-700 text-white font-bold">
+          <Link to="#"><button className="gilroy-semibold p-5 phone:p-2 phone:mt-10 phone:w-2/4 phone:h-[50px] phone:text-sn laptop:mt-10 tablet:my-10 tablet:w-1/3 tablet:h-[60px] tablet:mt-16 tablet:text-xl desktop:text-4xl desktop:mt-20 desktop:h-[100px] desktop:mx-32 tablet:ml-10 laptop:mx-20 rounded-xl bg-gradient-to-br from-pink-500 via-zinc-450 to-cyan-800 hover:bg-blue-700 text-white font-bold">
             Get in Touch
           </button></Link>
 
         </div>
-        <div className='phone:hidden laptop:grid tablet:grid sticky '>
-          <img className='tablet:flex tablet:h-[40px] desktop:h-[100px] mt-5 ml-40 hover:animate-pulse animate-once animate-duration-[2000ms] animate-delay-60' src={msg1}></img>
-          <img className='tablet:flex tablet:h-[40px] desktop:h-[100px] mt-10 ml-10 hover:animate-pulse animate-once animate-duration-[2000ms] animate-delay-60' src={msg2}></img>
-          <img className='tablet:flex tablet:h-[40px] desktop:h-[100px] ml-20 mt-6 hover:animate-pulse animate-once animate-duration-[2000ms] animate-delay-60' src={msg3}></img>
-        </div>
-        <img className='phone:hidden tablet:flex tablet:w-2/6 tablet:mr-5 laptop:h-[600px] laptop:mr-5 desktop:h-[1200px] desktop:mt-20' src={astro}></img>
+      
+        <img className='phone:hidden tablet:flex tablet:w-2/4 tablet:h-[480px] tablet:mr-20 laptop:h-[600px] laptop:mr-10 desktop:h-[900px] desktop:mr-20' src={astro}></img>
 
       </div>
 
@@ -111,43 +105,66 @@ function Home() {
       </div>
 
       <div className='tablet:flex desktop:flex laptop:flex phone:text-center desktop:mx-20 laptop:mx-10 tablet:mx-10'>
-
         <div className='phone:text-justify laptop:w-1/3 desktop:w-1/3 tablet:flex-col m-10'>
           <div className='phone:text-center phone:gap-2 text-white'>
-            <div className='text-white phone:hidden tablet:text-2xl desktop:text-4xl desktop:mr-20 desktop:mt-20'><p className='gilroy-regular underline decoration-yellow-400 decoration-2'>01.</p><br /><p className='gilroy-bold desktop:mt-10 laptop:mt-10 laptop:text-3xl'>Research</p></div>
-            <div className='text-white tablet:text-2xl phone:text-left desktop:text-4xl desktop:mr-20 desktop:mt-20 gilroy-bold laptop:mt-10 laptop:text-3xl'><div className='underline decoration-yellow-400 decoration-2'>01.</div><div>Research</div></div>
+            <div className='text-white phone:hidden tablet:text-2xl desktop:text-4xl desktop:mr-20 desktop:mt-20'>
+              <p className='gilroy-regular underline decoration-yellow-400 decoration-2'>01.</p>
+              <br />
+              <p className='gilroy-bold desktop:mt-10 laptop:mt-10 laptop:text-3xl'>Research</p>
+            </div>
+            <div className='text-white tablet:text-2xl phone:text-left desktop:text-4xl desktop:mr-20 desktop:mt-20 gilroy-bold laptop:mt-10 laptop:text-3xl'>
+              <div className='underline decoration-yellow-400 decoration-2'>01.</div>
+              <div>Research</div>
+            </div>
           </div>
-          <div className='tablet:text-lg laptop:text-xl desktop:text-4xl desktop:mt-12 desktop:mr-20 phone:text-lg text-white gilroy-medium mt-5'><p className='text-justify'>To understand your marketing needs, we study your business and come up with a tailored solution</p></div>
-          <img className='phone:mt-5 tablet:h-2/3 tablet:mt-10 desktop:h-[1200px] desktop:mt-20 desktop:mr-20 phone:w-full rounded-3xl' src={yimg}></img>
+          <div className='tablet:text-lg laptop:text-xl desktop:text-4xl desktop:mt-12 desktop:mr-20 phone:text-lg text-white gilroy-medium mt-5'>
+            <p className='text-justify'>To understand your marketing needs, we study your business and come up with a tailored solution</p>
+          </div>
+          <img className='phone:mt-5 tablet:h-2/3 tablet:mt-10 desktop:h-[1200px] desktop:mt-20 desktop:mr-20 phone:w-full rounded-3xl' src={yimg} alt="Research" />
+  
         </div>
 
         <div className='phone:text-justify laptop:w-1/3 desktop:w-1/3 tablet:flex-col m-10'>
           <div className='phone:text-center phone:gap-2 text-white'>
-            <div className='text-white phone:hidden tablet:text-2xl desktop:text-4xl desktop:mr-20 desktop:mt-20'><p className='gilroy-regular underline decoration-yellow-400 decoration-2'>02.</p><br /><p className='gilroy-bold desktop:mt-10 laptop:mt-10 laptop:text-3xl'>Strategy</p></div>
-            <div className='text-white tablet:text-2xl phone:text-left desktop:text-4xl desktop:mr-20 desktop:mt-20 gilroy-bold laptop:mt-10 laptop:text-3xl'><div className='underline decoration-yellow-400 decoration-2'>02.</div><div>Strategy</div></div>
+            <div className='text-white phone:hidden tablet:text-2xl desktop:text-4xl desktop:mr-20 desktop:mt-20'>
+              <p className='gilroy-regular underline decoration-yellow-400 decoration-2'>02.</p>
+              <br />
+              <p className='gilroy-bold desktop:mt-10 laptop:mt-10 laptop:text-3xl'>Strategy</p>
+            </div>
+            <div className='text-white tablet:text-2xl phone:text-left desktop:text-4xl desktop:mr-20 desktop:mt-20 gilroy-bold laptop:mt-10 laptop:text-3xl'>
+              <div className='underline decoration-yellow-400 decoration-2'>02.</div>
+              <div>Strategy</div>
+            </div>
           </div>
-          <div className='tablet:text-lg laptop:text-xl desktop:text-4xl desktop:mt-12 desktop:mr-20 phone:text-lg text-white gilroy-medium mt-5'><p className='text-justify'>The possible solutions are then churned with a cup of coffee into strategizing for the best possible outcome.</p></div>
-          <img className='phone:mt-5 tablet:h-2/3 tablet:mt-10 desktop:h-[1200px] desktop:mt-20 desktop:mr-20 phone:w-full rounded-3xl' src={rimg}></img>
+          <div className='tablet:text-lg laptop:text-xl desktop:text-4xl desktop:mt-12 desktop:mr-20 phone:text-lg text-white gilroy-medium mt-5'>
+            <p className='text-justify'>The possible solutions are then churned with a cup of coffee into strategizing for the best possible outcome.</p>
+          </div>
+          <img className='phone:mt-5 tablet:h-2/3 tablet:mt-10 desktop:h-[1200px] desktop:mt-20 desktop:mr-20 phone:w-full rounded-3xl' src={rimg} alt="Strategy" />
         </div>
-
-
 
         <div className='phone:text-justify laptop:w-1/3 desktop:w-1/3 tablet:flex-col m-10'>
           <div className='phone:text-center phone:gap-2 text-white'>
-            <div className='text-white phone:hidden tablet:text-2xl desktop:text-4xl desktop:mr-20 desktop:mt-20'><p className='gilroy-regular underline decoration-yellow-400 decoration-2'>03.</p><br /><p className='gilroy-bold desktop:mt-10 laptop:mt-10 laptop:text-3xl'>Execution</p></div>
-            <div className='text-white tablet:text-2xl phone:text-left desktop:text-4xl desktop:mr-20 desktop:mt-20 gilroy-bold laptop:mt-10 laptop:text-3xl'><div className='underline decoration-yellow-400 decoration-2'>03.</div><div>Execution</div></div>
+            <div className='text-white phone:hidden tablet:text-2xl desktop:text-4xl desktop:mr-20 desktop:mt-20'>
+              <p className='gilroy-regular underline decoration-yellow-400 decoration-2'>03.</p>
+              <br />
+              <p className='gilroy-bold desktop:mt-10 laptop:mt-10 laptop:text-3xl'>Execution</p>
+            </div>
+            <div className='text-white tablet:text-2xl phone:text-left desktop:text-4xl desktop:mr-20 desktop:mt-20 gilroy-bold laptop:mt-10 laptop:text-3xl'>
+              <div className='underline decoration-yellow-400 decoration-2'>03.</div>
+              <div>Execution</div>
+            </div>
           </div>
-          <div className='tablet:text-lg laptop:text-xl desktop:text-4xl desktop:mt-12 desktop:mr-20 phone:text-lg text-white gilroy-medium mt-5'><p className='text-justify'>Our highly skilled and determined team then put their heart and soul to execute these strategies.</p></div>
-          <img className='phone:mt-5 tablet:h-2/3 tablet:mt-10 desktop:h-[1200px] desktop:mt-20 desktop:mr-20 phone:w-full rounded-3xl' src={bimg}></img>
+          <div className='tablet:text-lg laptop:text-xl desktop:text-4xl desktop:mt-12 desktop:mr-20 phone:text-lg text-white gilroy-medium mt-5'>
+            <p className='text-justify'>Our highly skilled and determined team then put their heart and soul to execute these strategies.</p>
+          </div>
+          <img className='phone:mt-5 tablet:h-2/3 tablet:mt-10 desktop:h-[1200px] desktop:mt-20 desktop:mr-20 phone:w-full rounded-3xl' src={bimg} alt="Execution" />
         </div>
-
       </div>
 
-
-      <div className='text-center bg-white w-screen laptop:h-96 desktop:h-[600px] tablet:mt-10 tablet:p-20 phone:mt-5 phone:p-10 gilroy-semibold'>
+      <div className='text-center bg-white w-screen laptop:h-96 desktop:h-[600px] tablet:p-20 phone:mt-5 phone:p-10 gilroy-semibold'>
         <div className='phone:text-md desktop:text-3xl laptop:text-xl'>WHAT DO YOU NEED TO GET YOUR BUSINESS MOVING?</div>
         <div className='mt-5 tablet:text-4xl laptop:text-5xl phone:text-2xl desktop:text-8xl desktop:mt-10'>Join the Mad Monkey bandwagon and solidify your brand in this concrete jungle now!</div>
-        <button class="transition ease-in-out delay-150 bg-black mt-10 desktop:text-4xl desktop:mt-20 desktop:p-5 desktop:rounded-[20px] phone:w-[150px] bg-black text-white rounded-lg p-2">speak to us</button>
+        <button class=" bg-black mt-10 desktop:text-4xl desktop:mt-20 desktop:p-5 desktop:rounded-[20px] phone:w-[150px] bg-black text-white gilroy-medium rounded-lg p-2">speak to us</button>
       </div>
 
       {/* result driven solutions*/}
@@ -173,7 +190,7 @@ function Home() {
         <div className='flex-col desktop:mr-20 laptop:mr-20 tablet:mt-28 tablet:mr-12 laptop:mt-16 w-2/3 mt-10 text-left'>
           <div className='text-white phone:text-center desktop:text-8xl desktop:text-justify desktop:mr-20 laptop:text-5xl laptop:ml-3 laptop:mr-20 phone:text-2xl phone:mt-5 phone:text-justify-center tablet:text-left tablet:text-3xl tablet:ml-4 gilroy-semibold'>Want campaigns on your<br /> own platform ? </div>
           <div className='gilroy-medium text-white phone:text-center phone:m-5 laptop:mt-10 laptop:text-2xl text-justify tablet:mr-10 mt-10 desktop:text-4xl desktop:mt-10'><p className='text-justify'>The brand is all about how your customers think about you. With our extensive experience in E-commerce marketing, grow your brand name from scratch. Kick-start your platform, Ignite the fire, sit back and watch Madmonkey spread your light in the "Lanka" of budding entrepreneurship.</p></div>
-          <button class="gilroy-bold transition ease-in-out delay-150 bg-black hover:-translate-y-1 hover:scale-110 hover:bg-yellow-500 duration-300 bg-white text-black rounded-lg ml-3 mt-10 desktop:w-[200px] desktop:text-2xl laptop:w-[200px] laptop:h-[50px] p-2">speak to us</button>
+          <button class="gilroy-medium bg-black bg-white text-black rounded-lg ml-3 mt-5 desktop:w-[200px] desktop:text-2xl laptop:w-[200px] laptop:h-[50px] px-10 py-2">speak to us</button>
         </div>
       </div>
 
@@ -206,8 +223,9 @@ function Home() {
           <div className='text-white desktop:text-[100px] desktop:mt-36 desktop:ml-32 laptop:text-5xl laptop:ml-20 laptop:mt-20 phone:text-4xl phone:mt-16 phone:text-justify-center tablet:text-left tablet:ml-10 tablet:mt-16 tablet:text-4xl gilroy-semibold'>What it’s like <br />to collaborate together.</div>
           <div className='gilroy-medium phone:mt-5 desktop:text-3xl desktop:ml-32 tablet:text-md tablet:mt-2 tablet:ml-10 tablet:text-left laptop:text-left laptop:mt-10 laptop:ml-20 text-white'>Become partners for the long run.</div>
           <div className='desktop:flex laptop:flex tablet:flex gap-10 desktop:mt-60 desktop:ml-28 tablet:mt-40 tablet:ml-10 laptop:ml-20 phone:hidden'>
-            <button><img className='desktop:w-[70px] tablet:w-[30px]' src={lefta}></img></button>
-            <button><img className='desktop:w-[70px] tablet:w-[30px]' src={righta}></img></button>
+            <button className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'><img className='desktop:w-[70px] tablet:w-[30px]' src={lefta}></img></button>
+            <button className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'><img className='desktop:w-[70px] tablet:w-[30px]' src={righta}></img></button>
+            
           </div>
         </div>
         <img className='desktop:w-2/3 desktop:mr-24 laptop:w-1/2 tablet:w-1/2 phone:w-5/6 phone:ml-8 phone:place-items-center' src={yagami}></img>

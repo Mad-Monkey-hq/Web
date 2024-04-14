@@ -93,7 +93,7 @@ function App() {
             <div className='gilroy-semibold mt-2'><a href="#">Home</a></div>
             <div className='gilroy-semibold mt-2'><a href="#">About Us</a></div>
             <div className='gilroy-semibold mt-2'><a href="#">Case Studies</a></div>
-            <div className='gilroy-semibold mt-2'><a href="#">Contact Us</a></div>
+            <div className='gilroy-semibold my-2'><a href="#">Contact Us</a></div>
           </div>
           <div className='laptop:hidden tablet:hidden desktop:hidden laptop:text-2xl tablet:text-2xl desktop:text-3xl text-white text-center bg-orange-500 p-2 w-screen gilroy-semibold'>Designed & built with passion in India 🚀</div>
 

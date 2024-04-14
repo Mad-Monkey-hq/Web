@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import img1 from "../images/Mad Monkey-logo.svg";
 import navbaricon from "../images/navbar-icon.svg";
 import home from "../images/home-icon.svg";
-import service from "../images/services-icon.svg"; 
+import service from "../images/services-icon.svg";
 import vision from "../images/vision-icon.svg";
 import phone from "../images/phone-icon.svg";
 
@@ -15,40 +15,28 @@ function Navbar() {
   const handleClick = () => setShowNav(!showNav);
 
   const NavbarMenu = () => (
-    <nav className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black bg-opacity-50 backdrop-blur-sm">
-      <div className="bg-orange-500 rounded-lg p-6">
+    <nav className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black bg-opacity-50 transition-all duration-800 ease-in-out">
+      <div className="bg-orange-500 rounded-lg p-6 transition-all duration-800 ease-in-out">
         <nav className="phone:grid phone:place-items-left gap-4 gilroy-semibold text-black">
-          <Link
-            to="/Web"
-            className="flex"
-            onClick={() => setShowNav(false)}
-          >
-            <img className='h-5 w-5 mr-2' src={home}></img>Home
+          <Link to="/Web" className="flex transition-all duration-300 ease-in-out" onClick={() => setShowNav(false)}>
+            <img className="h-5 w-5 mr-2" src={home} alt="Home" />
+            Home
           </Link>
-          <Link
-            to="/Services"
-            className="flex"
-            onClick={() => setShowNav(false)}
-          >
-            <img className='h-4 w-4 mr-2' src={service}></img>Services
+          <Link to="/Services" className="flex transition-all duration-300 ease-in-out" onClick={() => setShowNav(false)}>
+            <img className="h-4 w-4 mr-2" src={service} alt="Services" />
+            Services
           </Link>
-          <Link
-            to="/Vision"
-            className="flex"
-            onClick={() => setShowNav(false)}
-          >
-            <img className='h-5 w-5 mr-2' src={vision}></img>Vision
+          <Link to="/Vision" className="flex transition-all duration-300 ease-in-out" onClick={() => setShowNav(false)}>
+            <img className="h-5 w-5 mr-2" src={vision} alt="Vision" />
+            Vision
           </Link>
-          <Link
-            to="/Contact"
-            className="flex"
-            onClick={() => setShowNav(false)}
-          >
-            <img className='h-5 w-5 mr-2' src={phone}></img>Contact Us
+          <Link to="/Contact" className="flex transition-all duration-300 ease-in-out" onClick={() => setShowNav(false)}>
+            <img className="h-5 w-5 mr-2" src={phone} alt="Contact" />
+            Contact Us
           </Link>
           <Link to="#">
             <button
-              className="p-2 w-40 rounded-full hover:bg-blue-700 bg-black text-white font-bold"
+              className="p-2 w-40 rounded-full hover:bg-blue-700 bg-black text-white font-bold transition-all duration-300 ease-in-out"
               onClick={() => setShowNav(false)}
             >
               1 hour free advice
@@ -80,17 +68,17 @@ function Navbar() {
           alt="Logo"
         />
         <nav className="phone:hidden tablet:flex tablet:text-md tablet:gap-2 desktop:text-4xl tablet:mt-6 absolute right-0 top-0 laptop:gap-10 desktop:gap-10 text-white gilroy-regular">
-          
-          <Link to="/Web" className="transition tablet:ml-60 ml-10  p-5 duration-0.3 hover:underline hover:decoration-orange-500 hover:decoration-4 hover:underline-offset-3">
+
+          <Link to="/Web" className="transition tablet:ml-60 ml-10  p-5 duration-0.3 hover:underline hover:decoration-4 hover:decoration-orange-500 hover:underline-offset-4 hover:decoration-rounded-full">
             Home
           </Link>
-          <Link to="/Services" className="transition p-5 duration-0.3 hover:underline hover:decoration-orange-500 hover:decoration-4 hover:underline-offset-3">
+          <Link to="/Services" className="transition p-5 duration-0.3 hover:underline hover:decoration-orange-500 hover:decoration-4 hover:underline-offset-4">
             Services
           </Link>
-          <Link to="/Vision" className="transition p-5 duration-0.3 hover:underline hover:decoration-orange-500 hover:decoration-4 hover:underline-offset-3">
+          <Link to="/Vision" className="transition p-5 duration-0.3 hover:underline hover:decoration-orange-500 hover:decoration-4 hover:underline-offset-4">
             Our Vision
           </Link>
-          <Link to="/Contact" className="transition  p-5 duration-0.3 hover:underline hover:decoration-orange-500 hover:decoration-4 hover:underline-offset-3">
+          <Link to="/Contact" className="transition  p-5 duration-0.3 hover:underline hover:decoration-orange-500 hover:decoration-4 hover:underline-offset-4">
             Contact Us
           </Link>
           <Link to="#">
@@ -99,7 +87,7 @@ function Navbar() {
             </button>
           </Link>
         </nav>
-      
+
         <div className="tablet:hidden phone:grid">
           <button
             onClick={() => setShowNav(true)}

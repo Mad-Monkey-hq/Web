@@ -9,7 +9,7 @@ module.exports = {
       screens: {
         'phone': '320px',
 
-        'tablet': '1200px',
+        'tablet': '640px',
         // => @media (min-width: 640px) { ... }
   
         'laptop': '1440px',

@@ -18,23 +18,8 @@ import img10 from '../images/soultatva.svg'
 
 function Carousel() {
   return (
-    <div className="bg-white laptop:flex tablet:flex phone:hidden desktop:flex">
-        <Marquee className='w-fulld desktop:h-[400px] desktop:my-100 text-center border' direction="right" speed={100} delay={5}>
-          <div className='p-10'>
-            <img src={img1}/>
-          </div>
-          <div className="p-10">
-            <img src={img2} alt="" />
-          </div>
-          <div className="p-10">
-            <img src={img3} alt="" />
-          </div>
-          <div className="p-10">
-            <img src={img4} alt="" />
-          </div>
-          <div className="p-10">
-            <img src={img5} alt="" />
-          </div>
+    <div className="bg-white mt-20 laptop:grid tablet:grid phone:hidden desktop:grid">
+        <Marquee className='w-full text-center' direction="right" speed={100} delay={5}>
           <div className="p-10">
             <img src={img6} alt="" />
           </div>
@@ -49,6 +34,23 @@ function Carousel() {
           </div>
           <div className="p-10">
             <img src={img10} alt="" />
+          </div>
+        </Marquee>
+        <Marquee className='w-full text-center' direction="left" speed={100} delay={5}>
+          <div className='p-10'>
+            <img src={img1}/>
+          </div>
+          <div className="p-10">
+            <img src={img2} alt="" />
+          </div>
+          <div className="p-10">
+            <img src={img3} alt="" />
+          </div>
+          <div className="p-10">
+            <img src={img4} alt="" />
+          </div>
+          <div className="p-10">
+            <img src={img5} alt="" />
           </div>
         </Marquee>
     </div>
