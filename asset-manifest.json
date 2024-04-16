@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/Web/static/css/main.2ab0e40d.css",
-    "main.js": "/Web/static/js/main.866cedcb.js",
+    "main.css": "/Web/static/css/main.396f2c68.css",
+    "main.js": "/Web/static/js/main.88baac0d.js",
     "static/media/mobile-clients.svg": "/Web/static/media/mobile-clients.447db648b26862bf63cdbdddd3bc88c0.svg",
     "static/media/marketplaces.svg": "/Web/static/media/marketplaces.d55179b3d062bc15b0e28f955b2168cf.svg",
+    "static/media/astronaut.svg": "/Web/static/media/astronaut.6a2ab664b74cc29597b0ab05a3c7a0a8.svg",
     "static/media/rimg.png": "/Web/static/media/rimg.c7cbefacef836b97d0bb.png",
     "static/media/bimg.png": "/Web/static/media/bimg.f4682db4aec108ddea60.png",
-    "static/media/astronaut.svg": "/Web/static/media/astronaut.11c23aa6b5cebda9ffaae806a2a110ae.svg",
     "static/media/cost-effective.svg": "/Web/static/media/cost-effective.af5f618d2624102bb03a27a1a6664f9f.svg",
     "static/media/Simply Whyte Design.svg": "/Web/static/media/Simply Whyte Design.8976ba26fd60dcb89dbdf9cbbb983660.svg",
     "static/media/yimg.svg": "/Web/static/media/yimg.0712a0b25b14a5656a2f1f7e1f494c83.svg",
@@ -15,7 +15,7 @@
     "static/media/jmc.svg": "/Web/static/media/jmc.cc81077e77a551c3b736adef803c7030.svg",
     "static/media/pinkbg.svg": "/Web/static/media/pinkbg.dff6f5ac6a97f5a37efc5f524c3f16a0.svg",
     "static/media/brand-camaraderie.svg": "/Web/static/media/brand-camaraderie.07a44818f7408c6e4c83829abb613c89.svg",
-    "static/media/home-white-monkey.svg": "/Web/static/media/home-white-monkey.2e7d2ae46868b41d40dab00139c49782.svg",
+    "static/media/home-white-monkey.svg": "/Web/static/media/home-white-monkey.109d552acc69d9eb407700a9fef12ad1.svg",
     "static/media/personalized-assistance.svg": "/Web/static/media/personalized-assistance.aa488cdbcc74dbf2149cee12cbf22dce.svg",
     "static/media/bombayshaving.svg": "/Web/static/media/bombayshaving.fae1d3ceedb6b35240011c188bd51c72.svg",
     "static/media/Group2.svg": "/Web/static/media/Group2.4049dae34f33ae78cbbae346cdad7158.svg",
@@ -32,9 +32,6 @@
     "static/media/Gilroy-SemiBold.ttf": "/Web/static/media/Gilroy-SemiBold.6780292641f883b3dad3.ttf",
     "static/media/Gilroy-Bold.ttf": "/Web/static/media/Gilroy-Bold.b900325e44ec0c673e88.ttf",
     "static/media/manmatters.svg": "/Web/static/media/manmatters.03acde49c68b61ffffb8c47ad6019d20.svg",
-    "static/media/250+campaigns.svg": "/Web/static/media/250+campaigns.31b99c33a725c883d9c1e16a41cbf085.svg",
-    "static/media/50k+community.svg": "/Web/static/media/50k+community.06e23e133b93bbb192b6fde0b47c9e46.svg",
-    "static/media/50+happyclients.svg": "/Web/static/media/50+happyclients.e950bb2112d3c2e01a4105a85059679b.svg",
     "static/media/damensch.svg": "/Web/static/media/damensch.2182c3532bca319b7ae9db441b65cf54.svg",
     "static/media/podonly.svg": "/Web/static/media/podonly.29b46ba151f991f2115cd4bb6bf6afd9.svg",
     "static/media/flownmo.svg": "/Web/static/media/flownmo.ce12aa3b906f9569cce53f8f188c4443.svg",
@@ -54,16 +51,17 @@
     "static/media/phone-icon.svg": "/Web/static/media/phone-icon.27863693b9739a9ffb3d52a319bb178a.svg",
     "static/media/Message.svg": "/Web/static/media/Message.679d0a6d74285f4f15cc9d69f8462355.svg",
     "static/media/arrowlogo.svg": "/Web/static/media/arrowlogo.2b84aa997649895cbb1997d781cf9273.svg",
+    "static/media/close.svg": "/Web/static/media/close.04b4da0931e5af31885a45ac5df32552.svg",
     "static/media/arrow-right.svg": "/Web/static/media/arrow-right.c5bb5197e87e1769e6b3c3d105347188.svg",
     "static/media/arrow-left.svg": "/Web/static/media/arrow-left.46502a40e6c7dd6d829f99328d35740e.svg",
     "static/media/facebook.svg": "/Web/static/media/facebook.37afb179a9fa671090ccb04389716a09.svg",
     "index.html": "/Web/index.html",
     "static/media/navbar-icon.svg": "/Web/static/media/navbar-icon.cba6305a83c7f773bdcc09f54a8fe93f.svg",
-    "main.2ab0e40d.css.map": "/Web/static/css/main.2ab0e40d.css.map",
-    "main.866cedcb.js.map": "/Web/static/js/main.866cedcb.js.map"
+    "main.396f2c68.css.map": "/Web/static/css/main.396f2c68.css.map",
+    "main.88baac0d.js.map": "/Web/static/js/main.88baac0d.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ab0e40d.css",
-    "static/js/main.866cedcb.js"
+    "static/css/main.396f2c68.css",
+    "static/js/main.88baac0d.js"
   ]
 }
