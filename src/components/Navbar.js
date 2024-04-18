@@ -19,8 +19,8 @@ const Nav = () => {
   ];
   let [open, setOpen] = useState(false);
   return (
-    <div className='shadow-md w-full fixed'>
-      <div className='md:flex items-center justify-between bg-black py-4 md:px-10 px-7'>
+    <div className='shadow-md w-full mb-20 fixed'>
+      <div className='md:flex md:h-[62px] items-center justify-between bg-black py-4 md:px-10 px-7'>
         <img className="phone:w-1/2 tablet:ml-5 md:w-1/5 phone:mt-4" src={img1}></img>
         <div onClick={()=>setOpen(!open)} className='absolute right-4 top-7 cursor-pointer phone:bg-orange-500 phone:rounded-xl md:hidden w-7 h-7'>
                 {
@@ -32,7 +32,7 @@ const Nav = () => {
           {
             Links.map((link) => (
               <li key={link.name} className='md:ml-8 text-xl phone:text-center md:bg-black md:text-white md:my-0 my-7'>
-                <a href={link.link} className='md:text-white duration-500 active:bg-orange-50 rounded-xl phone:transition phone:duration-300'>{link.name}</a>
+                <a href={link.link} className='md:text-white hover:underline hover:decoration-4 hover:decoration-orange-500 rounded-xl'>{link.name}</a>
               </li>
             ))
           }
