@@ -7,7 +7,7 @@ import facebook from "../images/facebook.svg"
 
 function Vision() {
     return (
-        <div className='flex-col'>
+        <div className='flex-col phone:mt-20'>
             <div className='bg-black text-justify text-white desktop:text-5xl desktop:m-5 desktop:p-20 tablet:text-2xl tablet:mt-2 tablet:px-10 phone:text-md phone:m-10 gilroy-semibold'>
                 <p>Our agency, Mad Monkey, was founded with the belief that all brands, big or small, deserve the opportunity to succeed on a global scale. We believe that Indian brands have the potential to dominate the international market, with their diverse and innovative products.<br></br><br></br>
                     Our mission is to help local brands reach their full potential and become global powerhouses. We understand that not all brands have the resources or strategies needed to succeed in today's competitive market, and that's where we come in.<br></br><br></br>

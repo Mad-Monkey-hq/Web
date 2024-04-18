@@ -97,7 +97,7 @@ function App() {
           )}
         </div>
       </div>
-      <div className='phone:flex-col tablet:hidden laptop:hidden desktop:hidden'>
+      <div className='phone:flex-col phone:mt-20 tablet:hidden laptop:hidden desktop:hidden'>
         <img className='w-3/4 h-[200px] mx-10' src={grp}></img>
         <div className='rounded-xl bg-white mx-2'>
           <h1 className='gilroy-bold text-orange-500 text-4xl mt-2 p-2 text-center'>Contact Us</h1>

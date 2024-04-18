@@ -33,7 +33,7 @@ function Home() {
     <div>
 
       {/* astro-monkey page */}
-      <div className='tablet:flex phone:center'>
+      <div className='mt-8 pt-20 tablet:flex phone:center'>
         <div className='flex-col phone:text-center desktop:mt-5 tablet:text-left tablet:w-3/5 tablet:ml-5 desktop:text-4xl'>
           <h2 className='phone:text-3xl desktop:text-8xl desktop:mx-20 desktop:p-10 laptop:text-6xl laptop:mx-20 tablet:text-5xl tablet:ml-10 tablet:text-left tablet:mt-10 mt-10 text-yellow-400 gilroy-semibold'>
             India’s Leading Product Marketing Agency

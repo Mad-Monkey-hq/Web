@@ -12,7 +12,7 @@ import facebook from "../images/facebook.svg"
 function Services() {
     return (
         <div>
-        <div className='tablet:flex-col desktop:flex-col phone:text-center w-screen bg-black'>
+        <div className='phone:mt-20 tablet:flex-col desktop:flex-col phone:text-center w-screen bg-black'>
             <h1 className='tablet:text-left tablet:mx-20 phone:mt-12 tablet:mt-10 phone:m-18 text-white phone:text-4xl tablet:text-5xl desktop:ml-28 desktop:my-32 desktop:text-7xl gilroy-semibold'>
                 Our offerings to boost your growth
             </h1>

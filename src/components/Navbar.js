@@ -7,105 +7,44 @@ import service from "../images/services-icon.svg";
 import vision from "../images/vision-icon.svg";
 import phone from "../images/phone-icon.svg";
 import close from "../images/close.svg"
+import { BookOpenIcon, Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/24/solid'
 
-function Navbar() {
-  const [showNav, setShowNav] = useState(false);
-  const [showNavbar, setShowNavbar] = useState(false);
-  const location = useLocation();
+const Nav = () => {
+  let Links = [
+    { name: "Home", link: "/Web" },
+    { name: "Service", link: "/Services" },
+    { name: "Vision", link: "/Vision" },
+    { name: "Contact", link: "/Contact" },
 
-  const handleClick = () => setShowNav(!showNav);
-
-  const NavbarMenu = () => (
-    <nav className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black bg-blur-50">
-      <div className="bg-orange-500 rounded-lg p-6" onClick={(e) => e.stopPropagation()}>
-        <nav className="phone:grid phone:place-items-left gap-4 gilroy-semibold text-black">
-          <button onClick={() => setShowNav(false)}>
-            <img src={close} alt="Close" className="ml-36 h-6 w-6" />
-          </button>
-          <Link to="/Web" className="flex transition-all duration-300 ease-in-out" onClick={() => setShowNav(false)}>
-            <img className="h-5 w-5 mr-2" src={home} alt="Home" />
-            Home
-          </Link>
-          <Link to="/Services" className="flex transition-all duration-300 ease-in-out" onClick={() => setShowNav(false)}>
-            <img className="h-4 w-4 mr-2" src={service} alt="Services" />
-            Services
-          </Link>
-          <Link to="/Vision" className="flex transition-all duration-300 ease-in-out" onClick={() => setShowNav(false)}>
-            <img className="h-5 w-5 mr-2" src={vision} alt="Vision" />
-            Vision
-          </Link>
-          <Link to="/Contact" className="flex transition-all duration-300 ease-in-out" onClick={() => setShowNav(false)}>
-            <img className="h-5 w-5 mr-2" src={phone} alt="Contact" />
-            Contact Us
-          </Link>
-          <Link to="#">
-            <button
-              className="p-2 w-40 rounded-full hover:bg-blue-700 bg-black text-white font-bold transition-all duration-300 ease-in-out"
-              onClick={() => setShowNav(false)}
-            >
-              1 hour free advice
-            </button>
-          </Link>
-        </nav>
-      </div>
-    </nav>
-  );
-  
-  
-
-  useEffect(() => {
-    const handleRouteChange = () => {
-      setShowNav(false);
-    };
-
-    window.addEventListener("popstate", handleRouteChange);
-
-    return () => {
-      window.removeEventListener("popstate", handleRouteChange);
-    };
-  }, []);
-
+  ];
+  let [open, setOpen] = useState(false);
   return (
-    <div>
-      <header className="sticky top-0 flex laptop:mx-10 desktop:mx-20 tablet:mx-5 my-2">
-        <img
-          className="phone:w-2/5 phone:m-5 tablet:w-1/6 tablet:m-10"
-          src={img1}
-          alt="Logo"
-        />
-        <nav className="phone:hidden tablet:flex tablet:text-md tablet:gap-2 desktop:text-4xl tablet:mt-6 absolute right-0 top-0 laptop:gap-10 desktop:gap-10 text-white gilroy-regular">
+    <div className='shadow-md w-full fixed'>
+      <div className='md:flex items-center justify-between bg-black py-4 md:px-10 px-7'>
+        <img className="phone:w-1/2 tablet:ml-5 md:w-1/5 phone:mt-4" src={img1}></img>
+        <div onClick={()=>setOpen(!open)} className='absolute right-4 top-7 cursor-pointer phone:bg-orange-500 phone:rounded-xl md:hidden w-7 h-7'>
+                {
+                    open ? <XMarkIcon/> : <Bars3BottomRightIcon />
+                }
+        </div>
 
-          <Link to="/Web" className="transition tablet:ml-60 ml-10  p-5 duration-0.3 hover:underline hover:decoration-4 hover:decoration-orange-500 hover:underline-offset-4 hover:decoration-rounded-full">
-            Home
-          </Link>
-          <Link to="/Services" className="transition p-5 duration-0.3 hover:underline hover:decoration-orange-500 hover:decoration-4 hover:underline-offset-4">
-            Services
-          </Link>
-          <Link to="/Vision" className="transition p-5 duration-0.3 hover:underline hover:decoration-orange-500 hover:decoration-4 hover:underline-offset-4">
-            Our Vision
-          </Link>
-          <Link to="/Contact" className="transition  p-5 duration-0.3 hover:underline hover:decoration-orange-500 hover:decoration-4 hover:underline-offset-4">
-            Contact Us
-          </Link>
+        <ul className={`gilroy-semibold tablet:bg-black desktop:bg-black laptop:bg-black phone:bg-white phone:w-full phone:h-full phone:mt-2 phone:text-black md:flex md:w-1/2 md:items-center md:pb-0 pb-12 absolute md:static md:z-auto md:pl-0 px-5 phone:fixed phone:rounded-r-3xl transition-all duration-500 ease-out ${open ? 'left-0' : 'left-[-490px]'}`}>
+          {
+            Links.map((link) => (
+              <li key={link.name} className='md:ml-8 text-xl phone:text-center md:bg-black md:text-white md:my-0 my-7'>
+                <a href={link.link} className='md:text-white duration-500 active:bg-orange-50 rounded-xl phone:transition phone:duration-300'>{link.name}</a>
+              </li>
+            ))
+          }
           <Link to="#">
-            <button className="w-1/8 p-5 tablet:text-xl desktop:text-4xl mr-10 rounded-full bg-gradient-to-br from-pink-500 via-zinc-450 to-cyan-800 hover:bg-blue-700 text-white font-bold">
+            <button className="p-3 phone:hidden md:flex tablet:text-lg desktop:text-4xl md:mx-5 rounded-full bg-gradient-to-br from-pink-500 via-zinc-450 to-cyan-800 hover:bg-blue-700 text-white font-bold">
               1 hour free advice
             </button>
           </Link>
-        </nav>
-
-        <div className="tablet:hidden phone:grid">
-          <button
-            onClick={() => setShowNav(true)}
-            className="tablet:hidden phone:absolute right-0 top-0 phone:w-1/6 phone:my-2 phone:opacity-80"
-          >
-            <img className='w-[32px] mt-1' src={navbaricon} alt="Navbar" />
-          </button>
-          {showNav && <NavbarMenu />}
-        </div>
-      </header>
+        </ul>
+      </div>
     </div>
-  );
+  )
 }
 
-export default Navbar;
+export default Nav
