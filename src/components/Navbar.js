@@ -21,16 +21,16 @@ const Nav = () => {
         </div>
         <ul className={`gilroy-semibold tablet:bg-black desktop:bg-black laptop:bg-black phone:bg-white phone:w-full phone:h-full phone:mt-2 phone:text-black md:flex md:w-1/2 md:items-center md:pb-0 pb-12 absolute md:static md:z-auto md:pl-0 px-5 phone:fixed phone:rounded-r-3xl transition-all duration-500 ease-out ${open ? 'left-0' : 'left-[-490px]'}`}>
           <li className='md:ml-8 text-xl phone:text-center md:bg-black md:text-white md:my-0 my-7'>
-            <Link to="/Web" className='md:text-white hover:underline hover:decoration-4 hover:decoration-orange-500 rounded-xl'>Home</Link>
+            <Link to="/Web" onClick={() => setOpen(!open)} className='md:text-white hover:underline hover:decoration-4 hover:decoration-orange-500 rounded-xl'>Home</Link>
           </li>
           <li className='md:ml-8 text-xl phone:text-center md:bg-black md:text-white md:my-0 my-7'>
-            <Link to="/Services" className='md:text-white hover:underline hover:decoration-4 hover:decoration-orange-500 rounded-xl'>Service</Link>
+            <Link to="/Services" onClick={() => setOpen(!open)} className='md:text-white hover:underline hover:decoration-4 hover:decoration-orange-500 rounded-xl'>Service</Link>
           </li>
           <li className='md:ml-8 text-xl phone:text-center md:bg-black md:text-white md:my-0 my-7'>
-            <Link to="/Vision" className='md:text-white hover:underline hover:decoration-4 hover:decoration-orange-500 rounded-xl'>Vision</Link>
+            <Link to="/Vision" onClick={() => setOpen(!open)} className='md:text-white hover:underline hover:decoration-4 hover:decoration-orange-500 rounded-xl'>Vision</Link>
           </li>
           <li className='md:ml-8 text-xl phone:text-center md:bg-black md:text-white md:my-0 my-7'>
-            <Link to="/Contact" className='md:text-white hover:underline hover:decoration-4 hover:decoration-orange-500 rounded-xl'>Contact</Link>
+            <Link to="/Contact" onClick={() => setOpen(!open)} className='md:text-white hover:underline hover:decoration-4 hover:decoration-orange-500 rounded-xl'>Contact</Link>
           </li>
           <Link to="#">
             <button className="p-3 phone:hidden md:flex tablet:text-lg desktop:text-4xl md:mx-5 rounded-full bg-gradient-to-br from-pink-500 via-zinc-450 to-cyan-800 hover:bg-blue-700 text-white font-bold">1 hour free advice</button>
