@@ -16,9 +16,9 @@ function Navbar() {
   const handleClick = () => setShowNav(!showNav);
 
   const NavbarMenu = () => (
-    <nav className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black bg-blur-50">
+    <nav className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-blur-50">
       <div className="bg-orange-500 rounded-lg p-6" onClick={(e) => e.stopPropagation()}>
-        <nav className="phone:grid phone:place-items-left gap-4 gilroy-semibold text-black">
+        <nav className="sm:grid sm:place-items-left gap-4 gilroy-semibold text-black">
           <button onClick={() => setShowNav(false)}>
             <img src={close} alt="Close" className="ml-36 h-6 w-6" />
           </button>
@@ -67,15 +67,15 @@ function Navbar() {
 
   return (
     <div>
-      <header className="sticky top-0 flex laptop:mx-10 desktop:mx-20 tablet:mx-5 my-2">
+      <header className="top-0 flex laptop:mx-10 desktop:mx-20 tablet:mx-5 my-2">
         <img
-          className="phone:w-2/5 phone:m-5 tablet:w-1/6 tablet:m-10"
+          className="sm:w-2/5 sm:m-5 tablet:w-1/6 tablet:m-10"
           src={img1}
           alt="Logo"
         />
-        <nav className="phone:hidden tablet:flex tablet:text-md tablet:gap-2 desktop:text-4xl tablet:mt-6 absolute right-0 top-0 laptop:gap-10 desktop:gap-10 text-white gilroy-regular">
+        <nav className="sm:hidden tablet:sticky tablet:flex tablet:text-md tablet:gap-2 desktop:text-4xl tablet:mt-6 absolute right-0 top-0 laptop:gap-10 desktop:gap-10 text-white gilroy-regular">
 
-          <Link to="/Web" className="transition tablet:ml-60 ml-10  p-5 duration-0.3 hover:underline hover:decoration-4 hover:decoration-orange-500 hover:underline-offset-4 hover:decoration-rounded-full">
+          <Link to="/Web" className="hover:transition tablet:ml-60 ml-10  p-5 hover:duration-300 hover:underline hover:decoration-4 hover:decoration-orange-500 hover:underline-offset-4 hover:decoration-rounded-full">
             Home
           </Link>
           <Link to="/Services" className="transition p-5 duration-0.3 hover:underline hover:decoration-orange-500 hover:decoration-4 hover:underline-offset-4">
@@ -94,10 +94,10 @@ function Navbar() {
           </Link>
         </nav>
 
-        <div className="tablet:hidden phone:grid">
+        <div className="tablet:hidden sm:grid">
           <button
             onClick={() => setShowNav(true)}
-            className="tablet:hidden phone:absolute right-0 top-0 phone:w-1/6 phone:my-2 phone:opacity-80"
+            className="tablet:hidden sm:absolute right-0 top-0 sm:w-1/6 sm:my-2 sm:opacity-80"
           >
             <img className='w-[32px] mt-1' src={navbaricon} alt="Navbar" />
           </button>
